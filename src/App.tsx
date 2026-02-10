@@ -1,9 +1,15 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Index from './pages/Index'
+import NotFound from './pages/NotFound'
+
 function App() {
   return (
-    <div className="App">
-      <h1>Parole Trentine</h1>
-      <p>Dizionario della lingua trentina</p>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Index />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
