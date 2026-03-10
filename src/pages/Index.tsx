@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import SearchBar from '../components/search/SearchBar'
+import WordCard from '../components/dictionary/WordCard'
 import { useDictionary } from '../hooks/useDictionary'
 
 export default function Index() {
@@ -17,13 +18,7 @@ export default function Index() {
       </div>
       <div className="max-w-4xl mx-auto grid gap-6">
         {results.map(word => (
-          <div key={word.id} className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
-            <h3 className="text-2xl font-bold text-trentino-red">{word.word}</h3>
-            <p className="text-gray-700 mt-2">{word.definition}</p>
-            {word.example && (
-              <p className="text-gray-500 italic mt-2">"{word.example}"</p>
-            )}
-          </div>
+          <WordCard key={word.id} word={word} />
         ))}
       </div>
     </div>
