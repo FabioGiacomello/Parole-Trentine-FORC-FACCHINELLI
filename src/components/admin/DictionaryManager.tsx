@@ -20,6 +20,9 @@ interface DictionaryEntry {
   dialect_word: string;
   italian_word: string;
   category: string;
+  gender: string | null;
+  number: string | null;
+  source_category: string | null;
   definition: string | null;
   examples: string[] | null;
   created_at: string;
@@ -53,7 +56,7 @@ export function DictionaryManager() {
       .range(page * ITEMS_PER_PAGE, (page + 1) * ITEMS_PER_PAGE - 1);
     
     if (error) {
-      console.error('Error fetching entries:', error);
+      console.error('Errore nel caricamento delle voci:', error);
       toast({
         variant: 'destructive',
         title: 'Errore',
@@ -170,6 +173,14 @@ export function DictionaryManager() {
                     <Badge variant="secondary" className="text-xs">
                       {entry.category}
                     </Badge>
+                    {entry.gender && (
+                      <Badge variant="outline" className="text-xs">
+                        {entry.gender === 'maschile' ? 'm.' : entry.gender === 'femminile' ? 'f.' : 'n.'}
+                      </Badge>
+                    )}
+                    {entry.number === 'plurale' && (
+                      <Badge variant="outline" className="text-xs">pl.</Badge>
+                    )}
                   </div>
                   {entry.definition && (
                     <p className="text-sm text-muted-foreground mt-1 truncate">

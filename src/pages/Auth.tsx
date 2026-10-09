@@ -6,7 +6,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { useAuth } from '@/contexts/AuthContext';
 import { useToast } from '@/hooks/use-toast';
-import { Lock, Mail, Shield } from 'lucide-react';
+import { Lock, Mail, Shield, Eye, EyeOff } from 'lucide-react';
 import { z } from 'zod';
 
 const authSchema = z.object({
@@ -15,13 +15,13 @@ const authSchema = z.object({
 });
 
 export default function Auth() {
-  const [isLogin, setIsLogin] = useState(true);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
   const [errors, setErrors] = useState<{ email?: string; password?: string }>({});
-  
-  const { signIn, signUp, user, isAdmin } = useAuth();
+  const [showPassword, setShowPassword] = useState(false);
+
+  const { signIn, user, isAdmin } = useAuth();
   const navigate = useNavigate();
   const { toast } = useToast();
 
@@ -51,57 +51,32 @@ export default function Auth() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (!validateForm()) return;
-    
+
     setLoading(true);
-    
+
     try {
-      if (isLogin) {
-        const { error } = await signIn(email, password);
-        if (error) {
-          if (error.message.includes('Invalid login credentials')) {
-            toast({
-              variant: 'destructive',
-              title: 'Errore di accesso',
-              description: 'Email o password non corretti.'
-            });
-          } else {
-            toast({
-              variant: 'destructive',
-              title: 'Errore',
-              description: error.message
-            });
-          }
+      const { error } = await signIn(email, password);
+      if (error) {
+        if (error.message.includes('Invalid login credentials')) {
+          toast({
+            variant: 'destructive',
+            title: 'Errore di accesso',
+            description: 'Email o password non corretti.'
+          });
         } else {
           toast({
-            title: 'Accesso effettuato',
-            description: 'Benvenuto nell\'area amministrativa.'
+            variant: 'destructive',
+            title: 'Errore',
+            description: error.message
           });
         }
       } else {
-        const { error } = await signUp(email, password);
-        if (error) {
-          if (error.message.includes('already registered')) {
-            toast({
-              variant: 'destructive',
-              title: 'Utente esistente',
-              description: 'Questo indirizzo email è già registrato.'
-            });
-          } else {
-            toast({
-              variant: 'destructive',
-              title: 'Errore',
-              description: error.message
-            });
-          }
-        } else {
-          toast({
-            title: 'Registrazione completata',
-            description: 'Account creato con successo. Contatta un amministratore per ottenere i permessi.'
-          });
-          setIsLogin(true);
-        }
+        toast({
+          title: 'Accesso effettuato',
+          description: 'Benvenuto nell\'area amministrativa.'
+        });
       }
     } finally {
       setLoading(false);
@@ -120,7 +95,7 @@ export default function Auth() {
               Area Amministrativa
             </h1>
             <p className="text-muted-foreground">
-              {isLogin ? 'Accedi per gestire il dizionario' : 'Crea un nuovo account'}
+              Accedi per gestire il dizionario
             </p>
           </div>
 
@@ -151,13 +126,21 @@ export default function Auth() {
                   <Lock className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
                   <Input
                     id="password"
-                    type="password"
+                    type={showPassword ? 'text' : 'password'}
                     placeholder="••••••••"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
-                    className="pl-10"
+                    className="pl-10 pr-10"
                     disabled={loading}
                   />
+                  <button
+                    type="button"
+                    onClick={() => setShowPassword(!showPassword)}
+                    className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground transition-colors"
+                    aria-label={showPassword ? 'Nascondi password' : 'Mostra password'}
+                  >
+                    {showPassword ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
+                  </button>
                 </div>
                 {errors.password && (
                   <p className="text-sm text-destructive">{errors.password}</p>
@@ -165,19 +148,9 @@ export default function Auth() {
               </div>
 
               <Button type="submit" className="w-full" disabled={loading}>
-                {loading ? 'Caricamento...' : isLogin ? 'Accedi' : 'Registrati'}
+                {loading ? 'Caricamento...' : 'Accedi'}
               </Button>
             </form>
-
-            <div className="mt-6 text-center">
-              <button
-                type="button"
-                onClick={() => setIsLogin(!isLogin)}
-                className="text-sm text-primary hover:underline"
-              >
-                {isLogin ? 'Non hai un account? Registrati' : 'Hai già un account? Accedi'}
-              </button>
-            </div>
           </div>
         </div>
       </section>

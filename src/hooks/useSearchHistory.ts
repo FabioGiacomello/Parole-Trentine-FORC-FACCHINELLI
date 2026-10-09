@@ -46,11 +46,11 @@ export function useSearchHistory() {
     };
 
     setHistory(prev => {
-      // Remove duplicate if exists
-      const filtered = prev.filter(item => 
+      // Rimuovi la stessa ricerca se già presente in cronologia
+      const filtered = prev.filter(item =>
         item.query.toLowerCase() !== query.toLowerCase()
       );
-      
+
       const updated = [newItem, ...filtered].slice(0, MAX_HISTORY_ITEMS);
       localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
       return updated;

@@ -7,15 +7,13 @@ import { Label } from '@/components/ui/label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { useToast } from '@/hooks/use-toast';
 import { supabase } from '@/integrations/supabase/client';
+import type { GrammarCategory } from '@/types/dictionary';
 import { 
   Lightbulb, 
   Send, 
   Loader2,
   BookOpen,
-  CheckCircle2,
-  Upload,
-  Volume2,
-  X
+  CheckCircle2
 } from 'lucide-react';
 
 const categories = [
@@ -28,38 +26,25 @@ const categories = [
   { value: 'esclamazione', label: 'Esclamazione' },
   { value: 'pronome', label: 'Pronome' },
   { value: 'locuzione', label: 'Locuzione' },
+  { value: 'articolo', label: 'Articolo' },
+  { value: 'numerale', label: 'Numerale' },
+  { value: 'interiezione', label: 'Interiezione' },
+  { value: 'altro', label: 'Altro' },
 ];
 
 export default function Suggerisci() {
   const [loading, setLoading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
-  const [audioFile, setAudioFile] = useState<File | null>(null);
   const [formData, setFormData] = useState({
     dialect_word: '',
     italian_word: '',
     category: '',
     definition: '',
     examples: '',
-    pronunciation: '',
     submitter_name: '',
     submitter_email: ''
   });
   const { toast } = useToast();
-
-  const handleAudioChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0];
-    if (file) {
-      if (file.size > 5 * 1024 * 1024) {
-        toast({
-          variant: 'destructive',
-          title: 'File troppo grande',
-          description: 'Il file audio deve essere inferiore a 5MB.'
-        });
-        return;
-      }
-      setAudioFile(file);
-    }
-  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -75,46 +60,19 @@ export default function Suggerisci() {
     
     setLoading(true);
     
-    let audioUrl: string | null = null;
-    
-    // Upload audio if provided
-    if (audioFile) {
-      const fileName = `suggestions/${Date.now()}_${audioFile.name}`;
-      const { data: uploadData, error: uploadError } = await supabase.storage
-        .from('audio')
-        .upload(fileName, audioFile);
-      
-      if (uploadError) {
-        console.error('Error uploading audio:', uploadError);
-        toast({
-          variant: 'destructive',
-          title: 'Errore upload audio',
-          description: 'Impossibile caricare il file audio. Il suggerimento verrà inviato senza audio.'
-        });
-      } else {
-        const { data: urlData } = supabase.storage
-          .from('audio')
-          .getPublicUrl(fileName);
-        audioUrl = urlData.publicUrl;
-      }
-    }
-    
     const examplesArray = formData.examples
       .split('\n')
       .map(e => e.trim())
       .filter(e => e.length > 0);
-    
-    type GrammarCategory = 'sostantivo' | 'verbo' | 'aggettivo' | 'avverbio' | 'preposizione' | 'congiunzione' | 'esclamazione' | 'pronome' | 'locuzione';
     
     const { error } = await supabase
       .from('suggestions')
       .insert([{
         dialect_word: formData.dialect_word.trim(),
         italian_word: formData.italian_word.trim(),
-        category: formData.category as GrammarCategory || null,
+        category: (formData.category || null) as GrammarCategory | null,
         definition: formData.definition.trim() || null,
         examples: examplesArray.length > 0 ? examplesArray : null,
-        pronunciation: formData.pronunciation.trim() || null,
         submitter_name: formData.submitter_name.trim() || null,
         submitter_email: formData.submitter_email.trim() || null,
         status: 'pending'
@@ -140,14 +98,12 @@ export default function Suggerisci() {
 
   const handleReset = () => {
     setSubmitted(false);
-    setAudioFile(null);
     setFormData({
       dialect_word: '',
       italian_word: '',
       category: '',
       definition: '',
       examples: '',
-      pronunciation: '',
       submitter_name: '',
       submitter_email: ''
     });
@@ -220,71 +176,6 @@ export default function Suggerisci() {
                       className="h-12"
                     />
                   </div>
-                </div>
-
-                {/* Pronunciation */}
-                <div className="space-y-2">
-                  <Label htmlFor="pronunciation" className="text-sm font-medium">
-                    Pronuncia (trascrizione fonetica)
-                  </Label>
-                  <Input
-                    id="pronunciation"
-                    placeholder="es. ciò-co-la (come si pronuncia la parola)"
-                    value={formData.pronunciation}
-                    onChange={(e) => setFormData(prev => ({ ...prev, pronunciation: e.target.value }))}
-                    className="h-12"
-                  />
-                  <p className="text-xs text-muted-foreground">
-                    Scrivi come si pronuncia la parola, ad esempio dividendo le sillabe o usando accenti
-                  </p>
-                </div>
-
-                {/* Audio Upload */}
-                <div className="space-y-2">
-                  <Label className="text-sm font-medium">
-                    Audio pronuncia (MP3)
-                  </Label>
-                  <div className="flex items-center gap-3">
-                    <div className="flex-1">
-                      <label
-                        htmlFor="audio-upload"
-                        className="flex items-center justify-center gap-2 h-12 px-4 rounded-lg border-2 border-dashed border-border hover:border-primary/50 hover:bg-muted/50 cursor-pointer transition-colors"
-                      >
-                        {audioFile ? (
-                          <>
-                            <Volume2 className="h-4 w-4 text-primary" />
-                            <span className="text-sm truncate">{audioFile.name}</span>
-                          </>
-                        ) : (
-                          <>
-                            <Upload className="h-4 w-4 text-muted-foreground" />
-                            <span className="text-sm text-muted-foreground">Carica file audio (max 5MB)</span>
-                          </>
-                        )}
-                      </label>
-                      <input
-                        id="audio-upload"
-                        type="file"
-                        accept="audio/mp3,audio/mpeg,audio/wav,audio/m4a"
-                        onChange={handleAudioChange}
-                        className="hidden"
-                      />
-                    </div>
-                    {audioFile && (
-                      <Button
-                        type="button"
-                        variant="ghost"
-                        size="icon"
-                        onClick={() => setAudioFile(null)}
-                        className="shrink-0"
-                      >
-                        <X className="h-4 w-4" />
-                      </Button>
-                    )}
-                  </div>
-                  <p className="text-xs text-muted-foreground">
-                    Puoi registrare la pronuncia corretta e caricarla qui (formati: MP3, WAV, M4A)
-                  </p>
                 </div>
 
                 {/* Category */}

@@ -1,21 +1,41 @@
-import { useAuth } from '../contexts/AuthContext'
+import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { Layout } from '@/components/layout/Layout';
+import { useAuth } from '@/contexts/AuthContext';
+import { AdminDashboard } from '@/components/admin/AdminDashboard';
+import { Loader2 } from 'lucide-react';
 
 export default function Admin() {
-  const { user } = useAuth()
+  const { user, isAdmin, loading } = useAuth();
+  const navigate = useNavigate();
 
-  if (!user || user.role !== 'admin') {
-    return <p className="text-center py-12">Non autorizzato</p>
+  useEffect(() => {
+    if (!loading) {
+      if (!user) {
+        navigate('/auth');
+      } else if (!isAdmin) {
+        navigate('/');
+      }
+    }
+  }, [user, isAdmin, loading, navigate]);
+
+  if (loading) {
+    return (
+      <Layout>
+        <div className="container py-16 flex items-center justify-center min-h-[60vh]">
+          <Loader2 className="h-8 w-8 animate-spin text-primary" />
+        </div>
+      </Layout>
+    );
+  }
+
+  if (!user || !isAdmin) {
+    return null;
   }
 
   return (
-    <div className="container mx-auto px-4 py-12">
-      <h1 className="text-4xl font-bold text-trentino-red mb-8">Dashboard</h1>
-      <div className="grid md:grid-cols-3 gap-6">
-        <div className="bg-white p-6 rounded-lg shadow">
-          <h3 className="text-xl font-semibold">Parole Totali</h3>
-          <p className="text-3xl font-bold text-trentino-red mt-2">0</p>
-        </div>
-      </div>
-    </div>
-  )
+    <Layout>
+      <AdminDashboard />
+    </Layout>
+  );
 }

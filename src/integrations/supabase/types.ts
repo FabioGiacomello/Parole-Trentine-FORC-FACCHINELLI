@@ -1,3 +1,4 @@
+// Tipi generati da Supabase CLI — ultima sincronizzazione 28/04/2026
 export type Json =
   | string
   | number
@@ -7,8 +8,8 @@ export type Json =
   | Json[]
 
 export type Database = {
-  // Allows to automatically instantiate createClient with right options
-  // instead of createClient<Database, { PostgrestVersion: 'XX' }>(URL, KEY)
+  // Permette di istanziare createClient con le opzioni corrette automaticamente
+  // invece di scrivere createClient<Database, { PostgrestVersion: 'XX' }>(URL, KEY)
   __InternalSupabase: {
     PostgrestVersion: "13.0.5"
   }
@@ -24,13 +25,16 @@ export type Database = {
           dialect_word: string
           examples: string[] | null
           feminine: string | null
+          gender: string | null
           id: string
           image_url: string | null
           italian_word: string
           notes: string | null
+          number: string | null
           plural: string | null
           pronunciation: string | null
           related_words: string[] | null
+          source_category: string | null
           updated_at: string
         }
         Insert: {
@@ -42,13 +46,16 @@ export type Database = {
           dialect_word: string
           examples?: string[] | null
           feminine?: string | null
+          gender?: string | null
           id?: string
           image_url?: string | null
           italian_word: string
           notes?: string | null
+          number?: string | null
           plural?: string | null
           pronunciation?: string | null
           related_words?: string[] | null
+          source_category?: string | null
           updated_at?: string
         }
         Update: {
@@ -60,13 +67,16 @@ export type Database = {
           dialect_word?: string
           examples?: string[] | null
           feminine?: string | null
+          gender?: string | null
           id?: string
           image_url?: string | null
           italian_word?: string
           notes?: string | null
+          number?: string | null
           plural?: string | null
           pronunciation?: string | null
           related_words?: string[] | null
+          source_category?: string | null
           updated_at?: string
         }
         Relationships: []
@@ -137,6 +147,30 @@ export type Database = {
         }
         Relationships: []
       }
+      word_views: {
+        Row: {
+          id: string
+          dialect_word: string
+          italian_word: string
+          view_count: number
+          last_viewed_at: string
+        }
+        Insert: {
+          id?: string
+          dialect_word: string
+          italian_word: string
+          view_count?: number
+          last_viewed_at?: string
+        }
+        Update: {
+          id?: string
+          dialect_word?: string
+          italian_word?: string
+          view_count?: number
+          last_viewed_at?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
@@ -148,6 +182,13 @@ export type Database = {
           _user_id: string
         }
         Returns: boolean
+      }
+      increment_word_view: {
+        Args: {
+          p_dialect_word: string
+          p_italian_word: string
+        }
+        Returns: undefined
       }
     }
     Enums: {
@@ -162,6 +203,10 @@ export type Database = {
         | "esclamazione"
         | "pronome"
         | "locuzione"
+        | "articolo"
+        | "numerale"
+        | "interiezione"
+        | "altro"
     }
     CompositeTypes: {
       [_ in never]: never
@@ -300,6 +345,10 @@ export const Constants = {
         "esclamazione",
         "pronome",
         "locuzione",
+        "articolo",
+        "numerale",
+        "interiezione",
+        "altro",
       ],
     },
   },

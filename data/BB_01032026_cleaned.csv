@@ -1,0 +1,791 @@
+﻿Num,Tipo,Voce,Cat,Italiano,Et_Audio
+1,lemma,babà,sf,voce bambinesca per acqua o una bibita qualsiasi,baba
+2,lemma,bàba,sf,"donna ciarliera, pettegola, chiacchierona e un po’ ficcanaso",baba
+3,lemma,babàr,vb,"chiacchierare, ciarlare a lungo, in continuazione, pettegolare",babar
+4,lemma,babilòli,sm,"a cavalluccio - anche: a belòio, babilòio",babiloli
+5,lemma,babóna,sf,"chiacchierona, pettegola, logorroica",babona
+6,lemma,bacàn,sm,"1. contadino ricco, possidente di terre, fig. contadino rozzo, 2. baccano, fracasso, casino",bacan
+7,locuzione,bacàn (sa èlo sto –),loc,"cos'è questo baccano, cos'è questo fracasso",bacàn (sa èlo sto –)
+8,lemma,bacanòt,sm,contadinello e ricco,bacanot
+9,lemma,bachét,sf,"bacchetta, bastoncino, pezzo di legno, legnetto, paletto - anche: bachèta",bachet
+10,lemma,bachetàr,vb,"bacchettare, percuotere con la bacchetta; rimprovero, biasimo",bachetar
+11,lemma,bachetón,sm,"1. bacchettone, bigotto; 2. pania, bacchette invischiate per uccellagione - anche: cetìn, santarèl",bacheton
+12,locuzione,bachetón (arivàr sul -),loc,esser preso da qualcuno che ne aspetta l'occasione.,bacheton (arivar sul -)
+13,locuzione,bachetón (té vegnirai sul –),loc,"verrai a tiro, te la farò pagare",bacheton (te vegnirai sul –)
+14,lemma,bacuchèl,sm,"casotto, baracca, capanno, gabbiotto",bacuchel
+15,lemma,bacùco,agg,"scemo, rimbambito, vecchio cadente",bacuco
+16,locuzione,bada (tegnir a –),loc,"tenere d'occhio, mettere sotto controllo",bada (tegnir a –)
+17,lemma,badàr,vb,"badare, custodire, far attenzione",badar
+18,lemma,badésa,sf,"badessa, superiore, donnone, saccente - anche: comandarésa",badesa
+19,lemma,badesàr,vb,"padroneggiare, comandare, dominare - fig. fare la badessa",badesar
+20,lemma,badìl,sm,"badile, pala",badil
+21,lemma,baf,sm,"baffo, mustacchi",baf
+22,locuzione,baf (nó dir gnanca en –),loc,"non dire neanche una parola, non aprir bocca",baf (no dir gnanca en –)
+23,lemma,baféto,sm,"baffetto, fregio; fig. capo, comandante",bafeto
+24,lemma,baga,sf,1. otre di pelle; 2. persona grassoccia e piccola di statura - anche: bagonghi,baga
+25,lemma,bagài,sm,"bagaglio, bagagli",bagai
+26,lemma,baghèga,sm,"piccino, piccoletto, ometto",baghega
+27,lemma,bàgherle,sm,"biroccio, calesse, carrozza a due o quattro ruote, con mantice",bagherle
+28,lemma,bagianada,sf,"baggianata, sciocchezza, stupidaggine",bagianada
+29,lemma,bagigi,smpl,"noccioline americane, arachidi",bagigi
+30,lemma,bagnàr,vb,"bagnare, ammollare",bagnar
+31,lemma,bagnifa,sf,"concia del selvatico, marinata",bagnifa
+32,lemma,bàgola,sf,"1. bacca, frutto del bagolaro; 2. cacherello di capra, di topi, dei bachi da seta; 3. ginepro; 4. vigile urbano",bagola
+33,lemma,bagolàr,sm,"bagolaro, loto (pianta), albero di bacche nere",bagolar
+34,lemma,bagolàr,vb,"tremare, battere i denti, provare i brividi, avere freddo",bagolar
+35,locuzione,bagolàr dal frét,loc,"tremare dal freddo, battere i denti, rabbrividire",bagolar dal fret
+36,lemma_variant,bàgole,sfpl,"1. bacche; 2. chiacchiere, bazzecole, piccolezze; 3. escrementi di capra, pecora, topi, ecc.",bagole
+37,locuzione,bàgole de càora,loc,sterco di capra,bagole de caora
+38,locuzione,bàgole de pégora,loc,sterco di pecora,bagole de pegora
+39,lemma,bagolòn,agg,"freddoloso, spaccone, millantatore, chiacchierone",bagolon
+40,lemma,bagónghi,sm,"nano da circo, nano grassoccio, nanerottolo",bagonghi
+41,lemma,bai,smpl,insetti,bai
+42,lemma,bàia,sf,"presa in giro, fandonia; sbornia, ubriacatura",baia
+43,lemma,baiarèl,sm,"ciarlone, pettegolo, parolaio, saputello, chiacchierino",baiarel
+44,lemma,baiarèla,sf,"1. uccelletto simile alla capinera, sterpazzola, bigiarella; 2. donna ciarlona",baiarela
+45,lemma,baiòchi,smpl,"soldi, denaro",baiochi
+46,lemma,bàit,sm,"capanna, capanno, casotto, piccola costruzione",bait
+47,lemma,bàita,sf,"capanna, baita, casetta di montagna",baita
+48,lemma,baitèl,sm,piccola baita,baitel
+49,lemma,bal,sm,"ballo, danza, festa danzante",bal
+50,lemma,bala,sf,"1. palla, boccia, pallottola; 2. testicolo; 3. frottola, bugia; 4. balla, sbornia, ubriacatura",bala
+51,locuzione,bala (de –),loc,"di corsa, con premura, senza por tempo in mezzo - anche: sùbit, debòt",bala (de –)
+52,locuzione,bala (nar de –),loc,"andar di corsa, senza indugio, andare velocemente",bala (nar de –)
+53,locuzione,bala de néf,es,palla di neve,bala de nef
+54,lemma,balada,sf,"ballata, danzata, sgambettata, componimento letterario",balada
+55,lemma,baladór,sm,"1. ballerino, danzatore; 2. ballatoio, balcone, terrazzo - anche:pontesèl, pogiòl, balcón",balador
+56,lemma,balamént,sm,"dondolio, oscillazione",balament
+57,lemma,balandra,agg,"persona confusa in testa, scansafatiche, poltrone, pelandrone, scioperato, ubriacone",balandra
+58,lemma,balanza,sf,"bilancia, bascula, stadera, pesa",balanza
+59,locuzione,balanza (en –),loc,"in bilico, in stabilità",balanza (en –)
+60,lemma,balanzìn,sm,nel carro: la traversina sul davanti ove si attaccavano i tiranti,balanzin
+61,lemma,balàr,vb,"ballare, danzare",balar
+62,lemma,balarina,sf,"1. ballerina, danzatrice, 2. ballerina (uccello) - anche:balerina",balarina
+63,lemma,balbuziàr,vb,balbettare - anche: embesolarse,balbuziar
+64,lemma,balcón,sm,"balcone, poggiolo - anche:pontesèl, pogiòl, baladór",balcon
+65,lemma,baldonàz,sm,"sanguinaccio, baldone - anche:brusti",baldonaz
+66,lemma,bale,sfpl,"palle, balle, bugie",bale
+67,locuzione,bale (nar for da le –),loc,"levarsi di torno, andarsene, non rompere più",bale (nar for da le –)
+68,lemma,balèngo,agg,1. sciocco; 2. strambo; 3. disuguale - anche:balènch,balengo
+69,lemma,balerìn,sm,"ballerino, danzatore - anche:balarin",balerin
+70,lemma,balét,sm,balletto,balet
+71,lemma,balìn,sm,"pallino per fucile; per il gioco delle bocce, boccino - anche: borin",balin
+72,lemma,balinàzi,sm,"pallettoni, proiettili, pallini grossi",balinazi
+73,locuzione,balinàzi (nar de –),loc,"correre veloci, filare via velocemente, scappare",balinazi (nar de –)
+74,lemma,balista,sm,"conta frottole, menzognero",balista
+75,lemma,balón,sm,"1. pallone, calcio, football; 2. fig. grossa sbornia",balon
+76,lemma,balón,agg,"bugiardo, millantatore, fanfarone, impostore",balon
+77,locuzione,balón (a –),loc,"con insuccesso, alla rovina, esito negativo,",balon (a –)
+78,locuzione,balón (nar a –),loc,"andare in fallimento, essere in confusione, smarrimento",balon (nar a –)
+79,lemma,balonzìn,sm,palloncino,balonzin
+80,lemma,balonzìna,sf,"palloncina, palla pugno (giocato similmente al tamburello)",balonzina
+81,lemma,balòs,agg,"balordo, canaglia, briccone, maledetto, strambo, stravagante, tonto",balos
+82,lemma,balosàda,sf,"azione poco corretta, brutto scherzo",balosada
+83,lemma,balòt,sm,"sasso, pietra, ciottolo",balot
+84,lemma,balòta,sf,"pallina, biglia",balota
+85,lemma,balòte,sfpl,"1. biglie, palline, gioco di ragazzi; 2. testicoli",balote
+86,locuzione,balòte (żugàr a le –),loc,giocare con le biglie (palline di terracotta o di vetro),balote (zugar a le –)
+87,lemma,balòtole,sf,"pallottole, palle, palline (di carta, terracotta, pane, ecc.)",balotole
+88,lemma,balotón,sm,"pallina di acciaio, o la più grossa delle altre al gioco delle biglie",baloton
+89,lemma,bàlsem,sm,"balsamo, fig. linimento, conforto",balsem
+90,lemma,balzàn,agg,"balzano, estroso, stravagante - anche: strampalà",balzan
+91,lemma,bambìn (ma –),escl,"interiezione come: perbacco, caspita, accidenti",bambin (ma –)
+92,lemma,bambinàto,escl,interiezione come per la miseria,bambinato
+93,lemma,bambinèl,sm,bambinello (Gesù bambino),bambinel
+94,lemma,bambòcio,sm,"bamboccio, bambolotto, pupazzo, sempliciotto - anche: bambòz",bambocio
+95,lemma,bambolòt,sm,"bambolotto, bamboccio, pupazzo, burattino",bambolot
+96,lemma,bamboṡèl,sm,polpaccio,bambosel
+97,lemma,bampa,sf,"fiammata improvvisa, vampata, caldana; anche: vampa",bampa
+98,locuzione,bampa (te sei en –),loc,"sei focoso, sei irruente, sei passionale, sei impulsivo",bampa (te sei en –)
+99,lemma,banca,sf,"1. panca, sedile, banca, banco; 2. istituto di credito",banca
+100,locuzione,banca (na – de légna),loc,"una catasta di legna, un mucchio di legna, una notevole quantità di legna",banca (na – de legna)
+101,lemma,bancàl,sm,attrezzo a punta usato per forare la roccia con punta a rosa - anche: pizpor,bancal
+102,lemma,banch,sm,"banco, panca, scrittoio",banch
+103,lemma,banchér,sm,banchiere,bancher
+104,lemma,banchét,sm,"bancarella, panchetto, banchetto, convivio, cena",banchet
+105,lemma,banchéta,sf,"panca, panchina, panchetta",bancheta
+106,lemma,banchéti,smpl,"bancarelle dei mercati, piccole panche",bancheti
+107,locuzione,banchéti (nar sui –),loc,andare alle bancarelle dai venditori ambulanti,bancheti (nar sui –)
+108,lemma,bancón,sm,"bancone, pancone",bancon
+109,lemma,banda,sf,"1. banda, gruppo di suonatori, combriccola; 2. lamiera, latta; 3. parte, zona, direzione, lato",banda
+110,locuzione,banda (l'è na – de matelòti),loc,è una combriccola di ragazzini,banda
+111,locuzione,banda (en coèrt fat de –),loc,"un coperto fatto di lamiera, un tetto fatto di latta",banda
+112,locuzione,banda (da – a –),loc,"da parte a parte, da una parte all'altra",banda (da – a –)
+113,locuzione,banda (da la – de Gardol),loc,"in direzione di Gardolo, verso Gardolo",banda (da la – de Gardol)
+114,locuzione,banda (da na –),loc,"da una parte, in disparte, in un posto",banda (da na –)
+115,locuzione,banda (tirete 'n –),loc,"fatti da parte, scansati, spostati",banda (tirete 'n –)
+116,locuzione,banda (vago da na –),loc,"vado in un posto, vado un luogo",banda (vago da na –)
+117,locuzione,banda (da l'altra – del mondo),loc,"dall'altra parte del mondo, in capo al mondo, senza meta",banda a l'altra (da –)
+118,lemma,bandàr,sm,"lattoniere, stagnino, chi lavora la banda",bandar
+119,lemma,bandèla,sf,"lamiera, lamierino",bandela
+120,lemma,bandéra,sf,"1. bandiera, stendardo; 2. voltagabbana, opportunista, traditore",bandera
+121,lemma,banderàl,sm,"porta bandiera, alfiere",banderal
+122,lemma,bando,sm,punto di salvezza nel gioco a darsela: toccarsi e rincorrersi,bando
+123,lemma,bandón,sm,"bidone di lamiera, fusto di latta, bidoncino, grande recipiente di latta per diversi usi",bandon
+124,lemma,bandus,sm,"tregua, sospensione del gioco, interruzione nei giochi da cortile",bandus
+125,lemma,bao,sm,"bruco, insetto, coleottero, baco, voce per spaventare i bambini",bao
+126,locuzione,bao (– de la farina ),loc,"larva della farina, tignola, tarma",bao (– de la farina )
+127,locuzione,bao (far vegnir el –),loc,"far stizzire, far stufare, far infastidire, irritare, provocare il voltastomaco",bao (far vegnir el –)
+128,locuzione,bao (l'è del –),loc,"è di nessuno, è inutile",bao (l'e del –)
+129,locuzione,bao (nó saverghen de –),loc,"ignorare, non saperne di qualcosa o non volerne sapere di qualcosa",bao (no saverghen de –)
+130,locuzione,bao del tabach,loc,"cerambice del salice (insetto), odora di muschio, la mettevano nella tabacchiera",bao del tabach
+131,lemma,bao-baosète,escl,esclamazione per sbigottire i bambini,bao-bao sete te
+132,lemma,barabèco,sm,"persona poco raccomandabile, spiritello pauroso",barabeco
+133,lemma,baracàr,vb,"gozzovigliare, bisbocciare, far baldoria - anche: sbaracar",baracar
+134,lemma,baracón,sm,"1. baraccone 2. persona a cui piace mangiare, bere e divertirsi",baracon
+135,lemma,baramina,sf,attrezzo a punta usato per forare la roccia con punta a rosa - anche:pizpor,baramina
+136,lemma,barba,sm,"1. barba, pizzo; 2. zio scapolo; 3. lagna, noia, menata",barba
+137,locuzione,barba da béch,loc,"actaea, pianta ranuncolacea purgativa ma assai velenosa",barba da bech
+138,locuzione,barba del frate,loc,tipo di insalata,barba del frate
+139,lemma,barbacagnàr,vb,rinforzare le case coi barbacani,barbacagnar
+140,lemma,barbacàn,sm,"barbacane, rinforzo, contrafforte",barbacan
+141,lemma,barbér,sm,barbiere (da uomo),barber
+142,lemma,barbìn,agg,"barbino, meschino, difficile, nascosto, incomprensibile",barbin
+143,locuzione,barbina (fegura –),loc,"brutta figura, figura da scemo, figura meschina",barbina (fegura –)
+144,lemma,barbiṡe,sfpl,"ballerino, danzatore - anche: balarin",barbise
+145,lemma,barbizòl,sm,"mento, barbetta, pizzetto - anche: barbòz",barbizol
+146,lemma,barbón,sm,"1. barbone, mendicante, accattone; 2. buzzurro, cafone, zoticone - anche: baron del sol",barbon
+147,lemma,barbòz,sm,mento - anche: barbizòl,barboz
+148,lemma,barbustèl,sm,"1. pipistrello; 2. ragazzo imberbe, sbarbatello, nottambulo",barbustel
+149,lemma,barcèla,sf,"1. carretta, carrettino, macinino; 2. contenitore per la teleferica",barcela
+150,lemma,bardàr,vb,"bardare, custodire",bardar
+151,lemma,bardasa,agg,"1. briccone, monello, birba; 2. donna di facili costumi",bardasa
+152,lemma,barèa,escl,"espressione di disgusto, voce bambinesca per dire 'che schifo'",barea
+153,lemma,barèla,sf,"barella, portantina, bussola",barela
+154,lemma,barelón,sm,"sbarello, barroccio, usato nell’edilizia",barelon
+155,lemma,baréta,sf,"berretto, berretta, coppola",bareta
+156,lemma,baréta da prèt,sf,evonimo (pianta medicinale),bareta da pret
+157,lemma,baretàr,sm,berrettaio - anche: beretar,baretar
+158,lemma,baretèla,sf,berrettino - anche: baretìn,baretela
+159,lemma,bargio,agg,"contadino rozzo, grossolano, indelicato, grezzo, bifolco, indelicato",bargio
+160,lemma,barìl,sm,"1. barile, botte, barilotto; 2. panzone, grassone, ciccione.",baril
+161,lemma,bariṡèl,sm,"barilotto, bariletta, fiaschetta portata a tracolla; anche: barilòt, botesìn",barisel
+162,lemma,bariṡèla,sf,1. irroratrice a mano per dare il verde­rame; 2. piccola botte,barisela
+163,lemma,barlusemàr,vb,1. illuminare fortemente; 2. incantare,barlusemar
+164,lemma,barón del sól,sm,"barboni, mendicanti, trasandato; lavoratore saltuario, squattrinati senza fissa dimora",baron del sol
+165,lemma,barufàr,vb,"litigare, bisticciare, questionare",barufar
+166,lemma,barżeléta,sf,"barzelletta, storiella",barzeleta
+167,lemma,bas,agg,basso,bas
+168,locuzione,bas (żó –),loc,"giù da basso, giù di sotto, al piano terra, accucciato",bas (zo –)
+169,lemma,baṡadòne,sm,"venticello, brezzolina, brezza",basadone
+170,lemma,baṡamént,sm,"1. baciamento, sbaciucchiamento; 2. base, basamento, zoccolo.",basament
+171,lemma,baṡar,vb,1. baciare; 2. basare,basar
+172,locuzione,baṡar ṡu,loc,"sbaciucchiare, baciare",basar su
+173,locuzione,base (a le –),loc,"in pianura, giù lì",base (a le –)
+174,locuzione,base (żó per le –),loc,"giù per la pianura, giù di lì; anche: żó en le base, a le base",base (zo per le –)
+175,lemma,baṡélghi,smpl,gli abitanti di Baselga di Piné; soprannome: sórgi,baselghi
+176,lemma,baṡìn,sm,bacetto,basin
+177,lemma,baṡinaro,sm,"venditore ambulante di basìni - basìni amari, amaretti",basinaro
+178,lemma,baṡini,smpl,biscotti casalinghi venduti nelle sagre,basini
+179,lemma,baso,sm,"basso, baritono, profondo",baso
+180,lemma,baṡo,sm,bacio,baso
+181,lemma,basòt,agg,"bassetto, alquanto basso",basot
+182,lemma,baṡòt,sm,"bacetto, bacino",basot
+183,lemma,bastanza,avv,"abbastanza, sufficiente",bastanza
+184,lemma,bastàrd,agg,"bastardo, illegittimo, degenerato",bastard
+185,lemma,bastardarìa,sf,"cosa senza capo ne coda, carognata, vigliaccata",bastardaria
+186,lemma,bastimént,sm,"bastimento, piroscafo",bastiment
+187,lemma,bata,sf,"ovatta, cotone idrofilo; - anche: ovata",bata
+188,lemma,batàia,sf,"battaglia, conflitto, confronto",bataia
+189,lemma,bataiàr,vb,battagliare,bataiar
+190,lemma,batalión,sm,"battaglione, gruppo di persone",batalion
+191,lemma,batarìa,sf,"mercanzia, suppellettili, cianfrusaglie, confusione di cose",bataria
+192,lemma,batedèl,sm,"1. battiporta, picchiotto; 2. chiavistello di legno usato nelle chiudende di campagna",batedel
+193,lemma,batèl,sm,"battello, traghetto, imbarcazione",batel
+194,lemma,bàter,vb,"bussare, battere, percuotere, picchiare, malmenare, trebbiare",bater
+195,locuzione,bàter brochéte,loc,battere i denti per il freddo,bater brochete
+196,locuzione,bàter el sól,loc,"soleggiato, assolato, esposto al sole",bater el sol
+197,locuzione,bàter fòra,loc,"tagliare, recidere, abbattere, ripulire",bater fora
+198,locuzione,bàter la luna,loc,"lunatico, imprevedibile, immusonito",bater la luna
+199,locuzione,bàter su légna,loc,spaccare la legna.,bater su legna
+200,lemma,bàter żó,vb,"abbattere, demolire, smantellare",bater zo
+201,locuzione,bàteri (dai –),loc,nel tempo della trebbiatura,bateri (dai –)
+202,lemma,bateżàr,vb,"1. battezzare, bagnare; 2. dare un soprannome; 3. picchiare, dare botte",batezar
+203,lemma,batéżo,sm,"battesimo, iniziazione",batezo
+204,lemma,baticòr,sm,"batticuore, agitazione",baticor
+205,lemma,baticulàte,sm,marsina o frac,baticulate
+206,lemma,batidór,sm,1. correggiato: attrezzo per la battitura dei cereali; 2. battitore in tutti i giochi e nei lavori,batidor
+207,lemma,batipani,sm,battipanni,batipani
+208,lemma,batòcio,sm,"1. battaglio, batacchio delle campane; 2. birbante, furbacchione",batocio
+209,lemma,batòcol,sm,batacchio (della campana),batocol
+210,lemma,bàtola,sf,"1. ciarlone, parolaio, fanfarone; 2. battola, raganella (strumento di legno per fare un suono assordante); anche: ràtola, gràtola, grèga",batola
+211,locuzione,bàtola (gavér na –),loc,"avere una parlantina, essere un chiacchierone, avere una chiacchiera",batola (gaver na –)
+212,lemma,batolàr,vb,"ciarlare a vanvera, fare pettegolezzi",batolar
+213,lemma,batolón,sm,"chiacchierone, ficcanaso, un racconta tutto, non sa mantenere un segreto",batolon
+214,lemma,batuda,sf,stipite degli infissi,batuda
+215,lemma,baùco,agg,"sciocco, tonto, grullo",bauco
+216,lemma,baùl,sm,"baule, cassettone",baul
+217,lemma,bava,sf,"1. saliva; bava alla bocca; 2. freddo intenso, aria gelida 3. filo per pescare",bava
+218,lemma,bavaròl,sm,"bavaglino, bavagliolo",bavarol
+219,lemma,baveṡèla,sf,"brezza, venticello, arietta",bavesela
+220,lemma,bavét,sm,piccolo insetto.,bavet
+221,lemma,baża,sf,"bazza, fortuna, buona sorte, culo, abbondanza, occasione",baza
+222,locuzione,baża (gavér na – ),loc,avere una fortuna sfacciata,baza (gaver na – )
+223,locuzione,baża (mai vist 'na – compagna),loc,"mai visto una fortuna simile, mai vista un'abbondanza così copiosa",baza (mai vist 'na – compagna)
+224,lemma,bażana,sf,"fagiolo da sgranare, baccello",bazana
+225,lemma,bażanèla,sf,fagiolino verde,bazanela
+226,lemma,bażari,smpl,"empori, negozi con molti articoli",bazari
+227,locuzione,bażari (cosa èlo sti –),loc,"cosa è questa confusione, cosa succede qui",bazari (cosa elo sti –)
+228,locuzione,bażari (nar fòr dei –),loc,andare sulle furia,bazari (nar for dei –)
+229,locuzione,bażari (nar fòr dei –),loc,andare in fretta e furia,bazari (nar for dei –)
+230,locuzione,bażari (nó ghè – che tegna),loc,"non c'è niente da fare, l'affare non si conclude",bazari (no ghe – che tegna)
+231,lemma,bàzega,sf,"bagatella, bazzecola, qualunque oggetto in senso spregiativo - anche: sbazega",bazega
+232,lemma,bazicàr,vb,"bazzicare, frequentare, praticare",bazicar
+233,lemma,bazilòli,sm,a cavalluccio,baziloli
+234,lemma,bazilón,sm,"arcuccio, bicollo: asta di legno ricurva con tacche alle estremità per portare due secchi",bazilon
+235,lemma,bazina,sf,"bacile, teglia, tegame di rame stagnato, tortiera senza manico",bazina
+236,lemma,bażo,sm,vizzo dei legumi,bazo
+237,lemma,bazón,sm,"bigonciolo, piccola mastella con manico per travasare i liquidi - anche: stòz",bazon
+238,lemma,bebèl,sm,"balocco, giocattolo",bebel
+239,lemma,becà,vb,"beccato, colpito col becco, punto, ricevuto, ottenuto, sorpreso",beca
+240,lemma,béca,sf,"1. torta ordinaria, dolce casalingo a volte con uvetta e mele; 2. bisbetica, donna astiosa",beca
+241,locuzione,béca (l'è na ó de una –),loc,è proprio una bisbetica,béca (l'è na ó de una –)
+242,locuzione,bèca (se 'l te –),es,"se ti prende, se ti acchiappa, se ti punge",beca (se 'l te –)
+243,lemma,becada,sf,"beccata, colpo di becco; anche puntura d'insetto",becada
+244,lemma,becamòrti,sm,"becchino, necroforo - fig. iettatore",becamorti
+245,lemma,becamùr,sm,picchio muraiolo,becamur
+246,lemma,becàr,sm,macellaio; fig. chirurgo incapace,becar
+247,lemma,becàr,vb,"beccare, morsicare d'insetto, pungere, pizzicare, ricevere, acciuffare",becar
+248,locuzione,becàr via,loc,"portare via, carpire",becar via
+249,lemma,becarìa,sf,macelleria,becaria
+250,lemma,becaza,sf,beccaccia,becaza
+251,lemma,becazòche,sm,picchio verde,becazoche
+252,lemma,béch,sm,"bécco, caprone, montone; anche: ciót, béco",bech
+253,lemma,bèch,sm,"1. becco degli uccelli; 2. tipo di pane allungato 'filone' (baguette); 3. spigolo, punta, angolo, del fazzoletto o del lenzuolo",bech
+254,locuzione,béch (dur come 'n –),loc,"cocciuto, testa dura, irremovibile",bech (dur come 'n –)
+255,locuzione,bèch (méterghe el –),loc,"interloquire, intromettersi, ficcare il naso, metter bocca",bech (meterghe el –)
+256,locuzione,béch (nar al –),loc,1. capra che è in calore; 2. gli ortaggi quando vanno in semenza,bech (nar al –)
+257,locuzione,béch (spuzàr come 'n –),loc,"puzzare tremendamente, emanare un odoraccio",bech (spuzar come 'n –)
+258,locuzione,bèch a bèch,loc,"a testa a testa, faccia a faccia, a quattrocchi",bech a bech
+259,lemma,bechenàr,vb,gioco con le uova: facendo picchiare le due punte (perde quello che si rompe),bechenar
+260,lemma,bécherli,smpl,"punteruoli, curculioni (coleottero)",becherli
+261,lemma,bechét,sm,"1. filoncino (panino dolce); 2. persona molto loquace, ficcanaso",bechet
+262,locuzione,bechét a l'ua,loc,filoncino con l'uvetta appassita,bechet a l'ua
+263,locuzione,bèchi ('l gà la luna a sète –),loc,ha la luna di traverso,bechi ('l ga la luna a sete –)
+264,lemma,bechìn,sm,"becchino, necroforo, beccamorti; anche: pizegòt",bechin
+265,lemma,béco,sm,"becco, capro, cornuto, uomo tradito",beco
+266,lemma,becolàr,vb,"beccottare, piluccare, beccare, mangiucchiare; anche: sbecolàr",becolar
+267,lemma,becón,sm,"beccata, puntura d'insetto o di serpe, colpo di becco",becon
+268,lemma,bedól,sm,betulla,bedol
+269,lemma,Bedól,np,"Bedollo, comune dell’altopiano di Piné",Bedol
+270,lemma,bédole,sfpl,betulle,bedole
+271,lemma,bèfa,sf,"sberleffo, derisione, presa in giro, dileggio, boccone amaro, delusione",befa
+272,locuzione,bèfa (l'è sta 'na –),es,"è stata una beffa, ho avuto una delusione",befa (l'e sta 'na –)
+273,locuzione,bèfe (la me fa le –),es,"mi prende in giro, mi sbeffeggia",befe (la me fa le –)
+274,lemma,bèga,sf,"lite, controversia, rissa, baruffa",bega
+275,lemma,begadór,sm,uomo litigioso.,begador
+276,lemma,beganate,sfpl,"notte dei doni, regali dell'Epifania o al nuovo anno; anche: beghenàte",beganate
+277,lemma,begàr,vb,"1. bisticciare, litigare, azzuffarsi; 2. sgridare, rimproverare, redarguire",begar
+278,lemma,begaròl,sm,"attaccabrighe, polemico, litigioso",begarol
+279,lemma,bèghe,sfpl,"litigi, discussioni, rimproveri",beghe
+280,lemma,bèghel,sm,"gufo, allocco, uccello notturno",beghel
+281,lemma,begón,sm,"rissa, baruffa, zuffa, grosso litigio",begon
+282,locuzione,begón (far su 'n –),loc,"fare una grande litigata, un putiferio",begon (far su 'n –)
+283,locuzione,begón da òto,loc,"grossa rissa, finimondo, baruffa",begon da oto
+284,lemma,bèl,agg,"bello, attraente, piacevole, limpido, sereno",bel
+285,lemma,bèl,sm,"fidanzato, moroso",bel
+286,locuzione,bèl aṡi (a –),loc,"piano piano, con comodità, momento opportuno",bel asi (a –)
+287,locuzione,bèl e bòn,loc,capace persino; aggiungerei un esempio,bel e bon
+288,locuzione,bèl òio (a –),loc,"a cavalcioni, a cavalluccio",bel oio (a –)
+289,lemma,bèla,sf,"1. morosa, fidanzata, innamorata; 2. finale, finalissima, spareggio",bela
+290,locuzione,bèla (– còpia),loc,"bella copia, stesura definitiva",bela (– copia)
+291,lemma,beladòna,sf,belladonna (pianta),beladona
+292,locuzione,bèle (ale –),loc,"sotto mano, nelle vicinanze",bele (ale –)
+293,locuzione,bèle (nar drìo cole –),loc,"usare belle maniere, con molta pazienza",bele (nar drio cole –)
+294,locuzione,bèle (narghe ale –),loc,"andare a tiro, avvicinarsi sottomano, presentarsi",bele (narghe ale –)
+295,locuzione,bèle (vegnìr ale –),loc,"venire a tiro, venire a proposito",bele (vegnir ale –)
+296,lemma,belét,sm,"belletto, rossetto, miscuglio farina gialla, aceto e sale per lucidare le pentole di rame",belet
+297,locuzione,belét (farghe el –),loc,lucidare i 'rami' di cucina col belét,belet (farghe el –)
+298,lemma,beléza,sf,"bellezza, incanto, splendore",beleza
+299,lemma,belòio,sm,"a cavalcioni, cavalluccio. Anche: bazilòli",beloio
+300,lemma,belòm,sm,bel uomo,belom
+301,lemma,bèn,sm,bene,ben
+302,lemma,bèn,avv,"rafforzativo per dire es.: ben vero, ben bene, ben strano",ben
+303,locuzione,bèn (a –),loc,"così va bene, a posto",ben (a –)
+304,locuzione,bèn (el me –),loc,"il mio bene, il mio amore sotto bèn sm",ben (el me –)
+305,locuzione,bèn bèn (la va –),loc,"mi va bene, va in modo corretto, non c'è male",ben ben (la va –)
+306,locuzione,bèn bòn (l'è –),loc,"è proprio buono, è veramente capace, è dotato",ben bon (l'e –)
+307,locuzione,bèn bòn dólz,loc,"ok, così va bene, tutto bene, tutto a posto",ben bon dolz
+308,lemma,bèna,sf,"cestone di vimini, usato per trasportare carichi",bena
+309,lemma,benbinà,agg,"combinato bene, ben messo, corrispondente, appropriato, ben assortito",benbina
+310,lemma,benedét,agg,"benedetto, consacrato, protetto, atteso",benedet
+311,lemma,benedìr,vb,"benedire, esser grato, dire bene",benedir
+312,lemma,benefizi,sm,"beneficio, vantaggio, sollievo, lascito",benefizi
+313,lemma,benèl,sm,"1. culla, cesto che serve da culla; 2. piccola benna - Anche: minèla",benel
+314,lemma,bènfàto,agg,"buono, bello, ben formato, bene! sta bene! è giusto!",benfato
+315,lemma,benón,avv,"benone, molto bene, ottimamente, approvazione, assenso",benon
+316,lemma,bèntegnù,agg,"ben custodito, ben coltivato, ben curato",bentegnu
+317,lemma,bènvegnù,agg,"benvenuto, ben arrivato",benvegnu
+318,lemma,Bèpa,np,Giuseppa,Bepa
+319,lemma,bèpa,sf,grappa - anche: sgnapa,bepa
+320,lemma,Bèpi,np,Giuseppe,Bepi
+321,lemma,Bepina,np,Giuseppina,Bepina
+322,lemma,Bèpo,np,Giuseppe,Bepo
+323,lemma,berechìn,agg,"birichino, vivace, furbetto",berechin
+324,lemma,bèrghen,sm,"rumore, piagnisteo, lamentazione, lagna",berghen
+325,lemma,bergnìf,agg,"furbo ma malizioso, scaltro - anche: bernìf",bergnif
+326,lemma,berlìchete,sm,"demonio, diavolo",berlichete
+327,lemma,bèrta,sf,"battipalo, macchina adoperata per frantumare rottami, per infiggere pali nel terreno, ecc.",berta
+328,locuzione,bèrta (tegnìr en –),loc,"tenere a bada, far star allegri",berta (tegnir en –)
+329,lemma,beṡevì,agg,"senza sale, insipido, insulso, sciocco",besevi
+330,lemma,besolàr,vb,"balbettare, tartagliare, farfugliare",besolar
+331,lemma,besolón,sm,"balbuziente, tartaglione",besolon
+332,lemma,bespiàr,sm,"1. vespaio; 2. ascesso, tumore",bespiar
+333,lemma,bèspro,sm,"vespro, vespero (funzione religiosa); anche: vèspro",bespro
+334,locuzione,bèspro (cantarghe el –),loc,"rimproverare, sgridare, ammonire, strapazzare",bespro (cantarghe el –)
+335,lemma,bestéma,sf,"bestemmia - anche:bestiéma, biestéma, biastéma, siraca",bestema
+336,lemma,bestemàr,vb,"bestemmiare - anche:bestiemàr, biestemàr, biastemàr, siracàr",bestemar
+337,locuzione,bestemàr (nó se ghe vede gnanca a –),loc,"non ci si vede neanche a bestemmiare; è buio fitto, è buio pesto, c'è oscurità assoluta",bestemar (no se ghe vede gnanca a –)
+338,locuzione,bestemàr come ’n turco,loc,"bestemmiare spesso; ma, in effetti i turchi bestemmiano meno dei cristiani",bestemar come ’n turco
+339,lemma,bestiàm,sm,bestiame piccolo o grande,bestiam
+340,lemma,Bèta,np,forma breve di Elisabetta,Beta
+341,locuzione,Bèta da la léngua s'cèta,loc,"persona spontanea, sincera, schietta, che non le manda a dire",Beta da la lengua s'ceta
+342,lemma,bétola,sf,"bettola, taverna, locale malfamato",betola
+343,lemma,betònega,sf,"donna (o uomo) linguacciuta, chiacchierona, pettegola",betonega
+344,lemma,betònega,sf,erba betonica: pianta medicinale e infestante,betonega
+345,lemma,betùm,sm,"bitume asfalto, anche cemento armato - anche: petùm",betum
+346,lemma,bevadóra,sf,abbeveratoio,bevadora
+347,lemma,bevaròl,sm,"beverino, piccolo abbeveratoio (vaschetta per l'acqua degli uccellini)",bevarol
+348,lemma,béver,vb,"bere, sorseggiare, dissetarsi",bever
+349,locuzione,béver de cana,loc,"bere dalla bottiglia, tracannare, trincare, sbevazzare",bever de cana
+350,locuzione,béver la garba,loc,"irritarsi, stizzirsi",bever la garba
+351,lemma,beveràr,vb,abbeverare le bestie,beverar
+352,lemma,beverón,sm,"1. bevanda per gli animali; 2. bevanda calda per le persone, nutriente e curativa",beveron
+353,lemma,bevidór,sm,"bevitore, beone.",bevidor
+354,lemma,beviròl,sm,beverino - anche: bevaròl,bevirol
+355,lemma,bevù,agg,"alticcio, brillo, sbronzo",bevu
+356,lemma,béz,sm,"antico soldo, danaro - anche: sbànzega",bez
+357,locuzione,béz (no’l val en –),loc,non ha nessun valore,bez (no’l val en –)
+358,lemma,biànch,agg,"bianco, candido, pallido, pulito, canuto",bianch
+359,locuzione,biànch come na straza,loc,"bianco come uno stracco: pallidissimo, cadaverico, impressionante",bianch come na straza
+360,locuzione,biànch e rós come 'n póm,loc,bianco e rosso come una mela: ottimo stato di salute,bianch e ros come 'n pom
+361,lemma,biancheżàr,vb,"albeggiare, farsi giorno - anche: sbianchezàr",bianchezar
+362,lemma,bianchìz,agg,"bianchiccio, biancastro",bianchiz
+363,lemma,Biaṡi,np,Biagio,Biasi
+364,lemma_variant,Biaṡi fa nèt,loc,"far piazza pulita (S. Biagio, 3 febbraio, la neve piano piano sparisce)",Biasi fa net
+365,lemma,biàva,sf,"biada, avena",biava
+366,locuzione,biàva (dar la –),loc,"1. dar la biada da mangiare; 2. fig. battere, sconfiggere, stravincere",biava (dar la –)
+367,lemma,biberól,sm,"vinello; anche: bibiròl, biròlo",biberol
+368,lemma,bibiàr,vb,"saperla lunga, circuire, ingannare",bibiar
+369,lemma,bibiròl,sm,"vinello, secondo vino, vino leggero, bibita; anche: beviròl",bibirol
+370,lemma,bicér,sm,"bicchiere; anche: bicéra, bichér, bichéra,",bicer
+371,lemma,biceròt,sm,"bicchierino, bicchiere; anche: bicheròt, bicheròta",bicerot
+372,lemma,bici,sf,bicicletta,bici
+373,lemma,bici da mónt,sf,"rampichino, mountain bike",bici da mont
+374,lemma,bicòca,sf,"bicocca, stamberga, capanna",bicoca
+375,lemma,bidèl,sm,bidello,bidel
+376,lemma,bidolarìe,sfpl,"cose strambe, cose stupide di nessun valore",bidolarie
+377,lemma,bidón,sm,"1. bidone, latta, fusto; 2. imbroglio, raggiro, fregatura",bidon
+378,lemma,bidonàro,sm,"colui che tira i bidoni, imbroglione, truffatore",bidonaro
+379,lemma,biésta,sf,"1. zolla, piòta di terra, letame, ecc.; 2. incrostazione di sporco",biesta
+380,lemma,biéta,sf,"bieta, costa, verdura a foglia larga",bieta
+381,lemma,bifólch,sm,"bifolco, bovaro, villano, maleducato",bifolch
+382,lemma,biga,sf,1. carro leggero a due ruote; 2. preimpasto che aiuta la lievitazione del pane,biga
+383,lemma,bigatìn,sm,"larva della mosca carnaria, verme da pesca",bigatin
+384,lemma,bìgoi,smpl,"spaghetti, vermicelli",bigoi
+385,lemma,bìgol,sm,"1. pene, fallo; 2. citrullo, minchione",bigol
+386,lemma,bigol,sm,"persona imbranata, minchione, citrullo",bigol
+387,lemma,bigòt,sm,"bigotto, baciapile",bigot
+388,lemma,bilanzér,sm,bilanciere,bilanzer
+389,lemma,biliét,sm,"biglietto, scontrino",biliet
+390,lemma,bina,sf,"1. filare coltivato, solco, spazio fra solchi; 2. tipo di pane, in coppia",bina
+391,lemma,binà,agg,"raccolto, preso su, colto, radunato, riunito",bina
+392,locuzione,binà ('ndó at – sta tós?),es,"dove ti sei preso questa tosse, cosa hai fatto per avere una tosse così?",bina ('ndo at – sta tos?)
+393,locuzione,binà (bèn –),loc,"bene assortito, bene acconciato, messo assieme",bina (ben –)
+394,locuzione,binà (mal –),loc,"mal messo, male accoppiato, male abbinato",bina (mal –)
+395,locuzione,bina de patate,loc,"fila, riga seminata a patate.",bina de patate
+396,locuzione,bina molinèl,loc,filetto continuo al gioco della tria - anche: merlér,bina molinel
+397,lemma,binàr,vb,"raccogliere, raccattare, radunare, cogliere, prender su; anche: goìr",binar
+398,locuzione,binàr a una,loc,"radunare, riunire, convocare",binar a una
+399,locuzione,binàr ensèma,loc,"raccogliere assieme, raggranellare, accumulare",binar ensema
+400,locuzione,binàr su tut,loc,"raccogliere tutto, raccattare ogni cosa",binar su tut
+401,lemma,binaról,sm,attrezzo per tracciare e distanziare le bine.,binarol
+402,lemma,binda,sf,"cricco, crick, martinetto.",binda
+403,lemma,bindèla,sf,sega elettrica verticale a nastro,bindela
+404,lemma,biónda,sf,"bionda, ragazza bionda; sigaretta",bionda
+405,lemma,biondeżàr,vb,biondeggiare,biondezar
+406,lemma,bióndo,agg,"biondo, dorato, sauro, fulvo",biondo
+407,locuzione,bióndo bastàrd,loc,"biondastro, biondiccio, rossiccio",biondo bastard
+408,lemma,biót,agg,"1. senza companatico, schietto, asciutto, solo; 2. nudo, spogliato, senza nulla",biot
+409,locuzione,biót (pan –),loc,"pane solo, senza companatico, senza altro assieme",biot (pan –)
+410,lemma,bira,sf,birra,bira
+411,lemma,biri-biri,sm,richiamo per bestie - anche: zino,biri-biri
+412,lemma,birìn,sm,"mezza birra, piccolo bicchiere di birra",birin
+413,lemma,biròc,sm,"carrozzella a due ruote, barroccino, barroccio: per persone o per merci; qualsiasi mezzo di trasporto messo male",biroc
+414,lemma,biròldo,sm,"gonzo, citrullo, zotico",biroldo
+415,lemma,biròlo,sm,"vinello, vino scadente o annacquato",birolo
+416,lemma,bis,sm,"biscia, serpente in genere, serpe, verme, lombrico, biscia, vipera",bis
+417,lemma,bisa,sf,"biscia, serpente d'acqua",bisa
+418,lemma,bisà,agg,"bacato (da un bruco), corrotto da un vermetto",bisa
+419,lemma,bisabòa,sf,"serpentino, serpeggiando, tortuosamente, tutto curve",bisaboa
+420,locuzione,bisabòa (a –),loc,"serpeggiando, tortuosamente, disonestamente",bisaboa (a –)
+421,lemma,bisàr,vb,"scolmare, dissodare, rompitura le zolle di terra - anche: dar terra",bisar
+422,lemma,biscòt,sm,"biscotto, pane a fette cotto due volte",biscot
+423,lemma,biṡegàr,vb,"frugare, far qualche lavoruccio, fare lavoretti; anche: bisegàr",bisegar
+424,lemma,biṡègol,sm,"bisegolo, lisciapiante, arnese da calzolaio per la levigare",bisegol
+425,lemma,biṡél,agg,"bigio, grigiastro, tempo nebbioso, di colore incerto",bisel
+426,lemma,biṡèrdola,sf,"lucertola - anche: lùserdola, iṡèrdola",biserdola
+427,lemma,biṡèst,sm,"bisesto, bisestile - anche: biṡestìl",bisest
+428,lemma,biṡi,sfpl,piselli,bisi
+429,lemma,biṡibili,sm,"visibilio, meraviglia, scompiglio, confusione",bisibili
+430,lemma,biṡlónch,agg,"bislungo, ellittico, ovoidale - anche: bislóng",bislonch
+431,lemma,bisnòno,sm,"bisnonno, bisavolo",bisnono
+432,lemma,bisògn,sm,"bisogno, bisogna",bisogn
+433,lemma,biṡognós,agg,"bisognoso, indigente, gracile",bisognos
+434,lemma,bisòl,sm,"vermetto, bigattino, lombrico, punteruolo dell'uva, vermicello.",bisol
+435,lemma,bisòl dela tera,sm,lombrico,bisol dela tera
+436,lemma,bisolà,vb,pieno di vermetti,bisola
+437,lemma,bisolarse,vb,"bacarsi, guastarsi per opera di bachi, detto di frutta, formaggi, ecc.; anche: bisolàrse",bisolarse
+438,lemma,bisón,sm,"biscione, serpentone",bison
+439,lemma,biṡónt,agg,"bisunto, sudicio, lercio.",bisont
+440,lemma,bist!,escl,"voce dei boari ai buoi per dirigerli a sinistra, ot, invece, per destra",bist!
+441,lemma,bituarse,vb,abituarsi,bituarse
+442,lemma,bivacàr,vb,bivaccare,bivacar
+443,lemma,biżarìa,sf,"bizzarria, stravaganza, stranezza",bizaria
+444,lemma,biżaro,agg,"bizzarro, bislacco, stravagante",bizaro
+445,lemma,blaga,sm,"persona vanitosa; gradasso, spaccone, sbruffone; chi vanta ed ostenta lusso ed eleganza",blaga
+446,locuzione,blaga (el me par ’n po’ –),es,mi sembra uno spaccone,blaga (el me par ’n po’ –)
+447,lemma,blagón,sm,"persona piena di sé; bullo, gradasso",blagon
+448,lemma,blateràr,vb,"farneticare, parlare a vanvera, straparlare, vaneggiare",blaterar
+449,lemma,blocàr,vb,"bloccare, fermare, bocciare",blocar
+450,lemma,bluṡéta,sf,camicetta per donna,bluseta
+451,lemma,bò,sm,"bue, bove",bo
+452,locuzione,bò (dir dré de – e de vaca),loc,"prendere a parolacce, malignare, spettegolare, tagliare i panni addosso a",bo (dir dre de – e de vaca)
+453,lemma,boarina,sf,cutrettola (uccello che spesso segue i buoi),boarina
+454,lemma,boàro,sm,"bovaro, mandriano; fig. rozzo - anche: boàr",boaro
+455,lemma,boàza,sf,"bovina, buina, sterco dei bovini",boaza
+456,lemma,bobardàr,vb,bombardare,bobardar
+457,lemma,bobò,sm,bue (bambinesco),bobo
+458,lemma,bobòda,sf,"mucca, vacca (bambinesco)",boboda
+459,lemma,bóca,sf,bocca,boca
+460,lemma,bóca,sf,"sella, valico, forcella",boca
+461,locuzione,bóca de león,loc,bocca di leone (fiore),boca de leon
+462,lemma,bocada,sf,"boccata, boccone, sorso, tiro",bocada
+463,locuzione,bocài (tèra da –),loc,"cimitero, terra del cimitero, 'terra per pitali'",bocai (tera da –)
+464,lemma,bocàl,sm,"1. boccale, grosso bicchiere, vaso di terracotta per bere; 2. vaso da notte.",bocal
+465,lemma,bocàl dal pis,sm,"orinale, vaso da notte",bocal dal pis
+466,lemma,bocalón,sm,"credulone, gonzo, ingenuo, sprovveduto",bocalon
+467,lemma,bocara,sf,mezzule; porticina in fondo alla botte tanto larga che un uomo possa entrarvi per pulirla,bocara
+468,lemma,bocaròla,sf,"herpes alla bocca, ragadi alle pieghe della bocca - anche: feverón",bocarola
+469,lemma,bocéta,sm,"bambino, bimbo, fanciullo, ragazzino, moccioso",boceta
+470,lemma,bocéta,sf,"boccetta, bottiglietta, ampolla - anche: bozéta",boceta
+471,lemma,bochér,sm,"abbaino, botola, apertura nei sottotetti con o senza ribalta",bocher
+472,lemma,bochéta,sf,"forcella, sella in montagna",bocheta
+473,lemma,bochìn,sm,bocchino: con filtro o senza per fumare le sigarette,bochin
+474,lemma,bochiròl,sm,beccuccio per annaffiatoi,bochirol
+475,lemma,bòcia,sm,"1. ragazzino, fanciullo, adolescente; 2. ragazzo, garzone, aiutante per piccoli lavori; 3. recluta degli alpini",bocia
+476,lemma,bòcia,sf,"boccia, palla, vaso sferico",bocia
+477,lemma,bociarìa,sf,"insieme di ragazzacci, gruppo di giovincelli, gioventù; anche: matelàm",bociaria
+478,locuzione,bociarìa (s'èl sta –),es,cosa sono tutti questi bambini (nel senso di rompiscatole),bociaria (s'el sta –)
+479,lemma,bociaza,sm,"ragazzino, ragazzotto, adolescente",bociaza
+480,lemma,bociazo,sm,"ragazzo, giovincello, ragazzaccio",bociazo
+481,lemma,bocìn,sm,"boccino, pallino biglia",bocin
+482,lemma,bòcol,sm,"ricciolo, boccolo, tirabaci",bocol
+483,lemma,bocón,sm,"boccone, morso",bocon
+484,lemma,boconzìn,sm,"bocconcino, leccornia",boconzin
+485,lemma,bòfa,sf,"bolla, vescica, rigonfi; anche: bufa",bofa
+486,lemma,bòfice,sm,"culo, sedere, fortuna",bofice
+487,lemma,bói,sm,"bollitura, bollore",boi
+488,locuzione,bói (basta en –),loc,è sufficiente una bollita,boi (basta en –)
+489,locuzione,bòi (còpia de –),es,"coppia di buoi, pariglia",boi (copia de –)
+490,locuzione,bói (darghe en –),loc,"dagli una bollita, fallo bollire",boi (darghe en –)
+491,locuzione,bói (far el –),loc,"far fermentare (uva), lasciare riposare/maturare (mele, castagne, ecc.)",boi (far el –)
+492,lemma,bòia,sm,"boia, giustiziere, canaglia",boia
+493,lemma,boiàca,sf,malta molto liquida,boiaca
+494,lemma,boiàda,sf,"1. grossa stupidaggine, bruttura, canagliata; 2. lavoro fatto male",boiada
+495,lemma,boidór,sm,"1. bollitore, bollivino, tinaia dove fermenta il graspato; 2. recipiente o posto molto caldo; 3. bollore",boidor
+496,locuzione,boidór (l'è tut en –),loc,"è un tutto in ebollizione, è in effervescenza, è proprio eccitato",boidor (l'e tut en –)
+497,lemma,boientón,sm,"mistura bollente o altro sistema, per detergere le botti",boienton
+498,lemma,bóier,vb,"bollire, fermentare - anche: boìr",boier
+499,lemma,boión,sm,"1. gorgo d'acqua, vortice; 2. bubbon, pateracchio al dito; giradito",boion
+500,lemma,boiór,sm,"bollore, caldo eccessivo",boior
+501,lemma,boìr,vb,"1. bollire; 2. fermentare, del mosto che si trasforma in vino - anche: bóier",boir
+502,lemma,ból,sm,"1. bollo, francobollo, timbro, sigillo, marca da bollo; 2. pallini, pois, lividi",bol
+503,lemma,bolàr,vb,"bollare, marcare, stampigliare",bolar
+504,lemma,boletìn,sm,1. foglio informativo; 2. bollettino.,boletin
+505,lemma,bolognàr,vb,anche: sbolognar,bolognar
+506,lemma,bolognìn,sm,"cubetto di porfido, sanpietrino",bolognin
+507,lemma,bólp,sf,"volpe, fig. furbacchione",bolp
+508,lemma,bolpàt,sm,"volpacchiotto, furbetto",bolpat
+509,lemma,bóls,agg,"ansimante, bolso, boccheggiante",bols
+510,lemma,Bolżàn,np,Bolzano,Bolzan
+511,lemma,bolzón,sm,chiave della cassaforte,bolzon
+512,lemma,bombàs,sm,"bambagia, cotone",bombas
+513,lemma,bombaṡina,sf,cotone misto lino,bombasina
+514,lemma,bombì,agg,"pieno d'acqua, inzuppato",bombi
+515,lemma,bombìz,agg,"inzuppato, intriso, fradicio, pieno d'acqua, inzuppato, imbevuto, paludoso",bombiz
+516,lemma,bòmbo,sm,"caramella, confetto, dolcino, zuccherino, raffinatezza, chicca, squisitezza",bombo
+517,lemma,bombosèr,sm,"acquitrino, , fontanile, infiltrazione d'acqua che geme dalla terra nei prati",bomboser
+518,lemma,bòn,agg,"buono, onesto, di cuore, per bene",bon
+519,locuzione,bòn còr,loc,"buon cuore, caritatevole",bon cor
+520,lemma,bòn!,escl,"va bene, basta, abbastanza, affare fatto",bon!
+521,lemma,bòna,agg,"detto di donna, molto bella, formosa e attraente, gnocca",bona
+522,locuzione,bòna (a la – de Dio),loc,"in qualche modo, alla meglio",bona (a la – de Dio)
+523,locuzione,bòna (a la –),loc,"alla buona, alla mano, fra di noi, come in famiglia, semplicemente",bona (a la –)
+524,locuzione,bòna (a la –),loc,"alla buona, alla mano, senza tanti fronzoli, amichevolmente",bona (a la –)
+525,locuzione,bòna (en –),loc,"in pace, in tranquillità, in armonia",bona (en –)
+526,locuzione,bòna (tegnirlo en –),loc,"tenerlo calmo, trattarlo con riguardo",bona (tegnirlo en –)
+527,locuzione,bòna nòte sonadóri,loc,"buona notte suonatori, tutti a nanna; anche fig. ironico o esclamazione",bona note sonadori
+528,lemma,bòna!,loc,"buon giorno, buona giornata, buon tutto",bona!
+529,lemma,bònagràzia,sf,palchetto per tendine,bonagrazia
+530,lemma,bònalàna,sm,fig. di birbante,bonalana
+531,lemma,bònamàn,sf,"mancia, dono, mancia di capodanno, strenna",bonaman
+532,lemma,bonaza,sf,"bonaccia, calma, piatta",bonaza
+533,lemma,bondì,sm,"buondì, buongiorno, buona giornata",bondi
+534,lemma,bóndola,sf,mortadella; anche: mortadèla,bondola
+535,lemma,Bondón,np,"Bondone, la montagna di Trento",Bondon
+536,lemma,bondonèri,smpl,"abitanti, amanti o possessori di case per ferie sul monte Bondone",bondoneri
+537,lemma,bonèra,sm,"bonaccione, persona indulgente, uomo buono in tutto e per tutto",bonera
+538,lemma,bonodór,sm,"buon odore, profumo",bonodor
+539,lemma,bonòm,sm,"buonuomo, onestuomo, galantuomo",bonom
+540,lemma,bonóra,sf,"buon'ora, al mattino presto, mattina presto",bonora
+541,lemma,bonoriènt,agg,"mattiniero, di buon mattino",bonorient
+542,locuzione,bonoriènta (a –),loc,"frugare, far qualche lavoruccio, fare lavoretti; anche: biṡegàr",bonorienta (a –)
+543,lemma,bonorìf,agg,"1. mattutino, mattiniero; 2. frutta primaticcia - anche: bonorìvo",bonorif
+544,lemma,bontempón,sm,"buontempone, allegrone, gaudente, burlone",bontempon
+545,lemma,bóra,sf,"tronco, fusto d'albero tagliato",bora
+546,lemma,boracia,sf,"borraccia, fiaschetta",boracia
+547,lemma,bordèl,sm,"bordello, chiasso, baccano, gazzarra",bordel
+548,lemma,bordón,sm,"bordone, bastone ricurvo da pellegrino; strumento per suoni gravi",bordon
+549,lemma,borèl,sm,"tronchetto, ciocco, fusto tagliato",borel
+550,lemma,borìn,sm,"pallino, boccino (gioco delle bocce) - anche: bocìn",borin
+551,lemma,borón,sm,"cocchiume, zaffo della botte",boron
+552,lemma,bórtol,sm,"sedere, deretano, culo",bortol
+553,locuzione,bórtol (smacàr el –),loc,"sculacciare, picchiare sul sedere",bortol (smacar el –)
+554,lemma,boscàt,sm,boschetto,boscat
+555,lemma,bósch,sm,"bosco, boscaglia, macchia",bosch
+556,lemma,boschér,sm,"boscaiolo, tagliaboschi, addetto ai tronchi - anche: boscaròl",boscher
+557,lemma,bosegàr,vb,tossire - anche: sbosegàr,bosegar
+558,lemma,boṡìa,sf,"bugia, falsità, frottola, menzogna; truciolo (di legno)",bosia
+559,lemma,boṡiàdro,agg,"bugiardo, falso, ciarlatano",bosiadro
+560,lemma,bót,sf,"botte, barile, tino",bot
+561,lemma,bòt,sm,"botto, colpo, rintocco della campana",bot
+562,locuzione,bòt (de –),loc,"di colpo, tutto ad un tratto; anche:debòto",bot (de –)
+563,locuzione,bòt (de prim –),loc,"a prima vista, di colpo, di primo acchito",bot (de prim –)
+564,lemma,bòta,sf,"botta, battuta, bastonata, colpo, legnata",bota
+565,locuzione,bòta (tegnirghe –),loc,"controbattere, tener testa, dargli contro, non farsi sottomettere",bota (tegnirghe –)
+566,lemma_variant,botànico,sm,"botanico, erborista",botanico
+567,lemma,botàr,sm,bottaio,botar
+568,locuzione,bòte (na rata de –),loc,"un sacco di legnate, un sacco di botte",bote (na rata de –)
+569,lemma,botéga,sf,"bottega, negozio, rivendita",botega
+570,lemma,boteghér,sm,"bottegaio, negoziante, commerciante, esercente, venditore",botegher
+571,lemma,botér,sm,burro,boter
+572,lemma,boteṡèl,sm,"botticino, botte piccola, botticella, botticina; anche: boteṡèla",botesel
+573,lemma,botesón,sm,la botte grande della cantina,boteson
+574,lemma,boteżàr,vb,"rintoccare, suonare delle campane - anche: sbotezàr",botezar
+575,lemma,boteżàr,vb,"fare il burro, burrificare - anche: caserar",botezar
+576,lemma,botinàr,vb,"bottinare, raccogliere il nettare e il polline",botinar
+577,lemma,bòtola,sf,"botola, tombino",botola
+578,lemma,botón,sm,"bottone, pulsante, bocciolo",boton
+579,lemma,botón de la comare,sm,ombelico - anche: botón de la gùdaza,boton de la comare
+580,lemma,botonara,sf,"bottoniera, allacciatura, pulsantiera",botonara
+581,lemma,bòza,sf,bottiglia; anche: botìlia,boza
+582,lemma,bozét,sm,"bozzetto, schizzo, abbozzo",bozet
+583,lemma,bozéta,sf,"boccettina, bottiglietta, ampolla; biberon",bozeta
+584,lemma,bozón,sm,"bottiglione, fiasco",bozon
+585,lemma,braconiér,sm,bracconiere,braconier
+586,lemma,bragàld,sm,"ovulo buono, amanita cesarea; anche: bragàldo",bragald
+587,lemma,bragaròl,sm,"brachetta, toppa, patta, abbottonatura dei pantaloni; anche: botega",bragarol
+588,lemma,braghe,sfpl,"pantaloni, calzoni",braghe
+589,locuzione,braghe (botéga de le –),es,patta dei pantaloni - anche: bragaròl,braghe (botega de le –)
+590,locuzione,braghe a la żuàva,loc,"pantaloni alla zuava, cioè alla moda degli zuavi",braghe a la zuava
+591,locuzione,braghe a zifolòt,loc,"pantaloni molto stretti di gamba, che arrivavano al ginocchio",braghe a zifolot
+592,locuzione,braghe córte,loc,pantaloni corti,braghe corte
+593,locuzione,braghe de téla,loc,"mutande, boxer, bermuda",braghe de tela
+594,locuzione,braghe de téla (èser en –),loc,"essere in mutande, non aver più nulla",braghe de tela (eser en –)
+595,locuzione,braghe lise,loc,pantaloni consumati,braghe lise
+596,locuzione,braghe lónghe,loc,pantaloni lunghi,braghe longhe
+597,locuzione,braghe repezade,loc,pantaloni rammendati,braghe repezade
+598,locuzione,braghe taconade,loc,pantaloni aggiustati male,braghe taconade
+599,locuzione,braghe taselade,loc,pantaloni con le toppe,braghe taselade
+600,locuzione,braghe tipo aqua alta,loc,pantaloni corti che mostrano i calzini,braghe tipo aqua alta
+601,lemma,braghéte,sfpl,"pantaloncini, calzoncini",braghete
+602,locuzione,braghéte da nòdo,loc,"costume da bagno, pantaloncini da bagno",braghete da nodo
+603,lemma,bragòte,sf,"spreg. braghette, calzoncini",bragote
+604,lemma,brancada,sf,"manata, quantità di cose afferrate con le mani",brancada
+605,lemma,brancàr,vb,"brancare, pigliare, prendere, afferrare; anche: brincar",brancar
+606,lemma,brancol,sm,"rebbio, ogni punta della forca o della forchetta",brancol
+607,lemma,brào,agg,bravo,brao
+608,locuzione,brào (da –),loc,"da bravo, stai bravo, ma va là, non rompere",brao (da –)
+609,locuzione,brào caro (da –),loc,"ma cosa dici, stai calmo, non dire fesserie",brao caro (da –)
+610,lemma,braṡa,sf,"brace, tizzone ardente, carbone acceso",brasa
+611,locuzione,braṡa coèrta,loc,"furbacchione, malizioso, acqua cheta - anche: braṡa scoèrta",brasa coerta
+612,lemma,brasca,sf,raspo dell'uva,brasca
+613,lemma,brascà,sm,"uva pigiata, mosto, raspato, ammostato",brasca
+614,lemma,brasche,sfpl,vinacce,brasche
+615,lemma,braṡe,smpl,"braci, tizzoni, fuoco senza fiamma, carboni ardenti",brase
+616,lemma,braṡér,sm,braciere,braser
+617,lemma,braṡòla,sf,"braciola, costoletta",brasola
+618,lemma,braùra,sf,"bravura, destrezza, maestria",braura
+619,lemma,braurada,sf,"spacconata, azione spavalda, fanfaronata",braurada
+620,lemma,bravada,sf,"bravata, braveria, spacconata, prodezza",bravada
+621,lemma,bravazo,sm,"bravaccio, prepotente",bravazo
+622,lemma,braz,sm,"braccio, bracciata, fascio",braz
+623,locuzione,braz a braz,loc,"a braccetto, sottobraccio",braz a braz
+624,locuzione,braz de èrba,loc,fascio d'erba,braz de erba
+625,lemma,brazacòl,sm,"abbracciare, gettare le braccia al collo, abbracciare strettamente",brazacol
+626,lemma,brazada,sf,"abbracciata, abbraccio, bracciata (es. a nuoto)",brazada
+627,lemma,brazadèl,sm,"ciambella dolce, pane intrecciato e zuccherato; anche salato: bretzél",brazadel
+628,lemma,brazàl,sm,bracciale,brazal
+629,lemma,brazalét,sm,braccialetto,brazalet
+630,lemma,brazàr,vb,"abbracciare, cingere - anche: abrazàr, embrazàr",brazar
+631,lemma,brazòl,sm,"bracciolo, appoggio per le braccia",brazol
+632,lemma,brazòt,sm,"braccetto, piccolo braccio, braccino",brazot
+633,locuzione,brazòt córt,loc,avaro; chi non tira mai fuori il portafoglio ha il 'braccino' corto,brazot cort
+634,lemma,bréga,sf,"asse, stanga, tavola",brega
+635,lemma,brènta,sf,"mastello, tinozza",brenta
+636,locuzione,brènta (ne ò magnà na –),loc,ne ho mangiato tantissimo,brenta (ne o magna na –)
+637,lemma,brentana,sf,"alluvione, allagamento",brentana
+638,lemma,brentèl,sm,recipiente di legno nel quale si metteva la carne sotto sale,brentel
+639,lemma,brentèla,sf,"piccola brenta, piccolo mastello in legno, bigoncia",brentela
+640,lemma,brentón,sm,"grande tinozza di legno, usata per scaricare il mosto",brenton
+641,lemma,brènz,sm,1. le vasche della fontana; 2. recipiente di legno o di rame per l'acqua potabile,brenz
+642,lemma,brescàda,sf,"manata, manciata",brescada
+643,lemma,bretèle,sfpl,"bretella, spalline di indumenti - anche: spalàzi, tiràche",bretele
+644,lemma,brétzel,sm,"ciambella salata, pane intrecciato e salato - anche dolce: bazadèl",bretzel
+645,lemma,brìa,sf,"briglia, redine - anche: brilia",bria
+646,lemma,brìga,sf,"pigrizia, fastidio, pena, peso, molestia",briga
+647,locuzione,brìga (gavér –),loc,"avere un incomodo, essere indolenti verso qualche cosa, non averne voglia",briga (gaver –)
+648,lemma,brigàr,vb,"aver da fare, ingegnarsi, aver da dire",brigar
+649,locuzione,brigàr (seutàr a –),loc,"continuare a fare lavoretti, seguitare a darsi da fare",brigar (seutar a –)
+650,lemma,brighèla,sf,"brighella, persona furba",brighela
+651,lemma,brigolàr,vb,"fremere, palpitare, eccitare, dimenarsi come un verme",brigolar
+652,lemma,brigolón,agg,"vivace, irrequieto, ansioso",brigolon
+653,lemma,brigolòt,sm,"vermetto, baco",brigolot
+654,locuzione,brigolòti (pién de –),loc,"pieno di vermetti, bacato, brulicato",brigoloti (pien de –)
+655,lemma,brigós,agg,"incomodo, seccante, laborioso",brigos
+656,lemma,brincàr,vb,"abbrancare, afferrare, acciuffare, prendere, acchiappare; anche: brancar",brincar
+657,lemma,briṡa,sf,"fungo boleto, porcino",brisa
+658,locuzione,briṡa mata,loc,"fungo tossico, o velenoso o non commestibile",brisa mata
+659,lemma,briṡòt,sm,piccolo fungo porcino,brisot
+660,lemma,brò,sm,"brodo, consommé",bro
+661,lemma,brò bruṡà,sm,"farina bianca tostata col brodo, minestra di bianca fritta con burro e cipolla",bro brusa
+662,lemma,broàda,agg,"bollita, sbollentata, scottata",broada
+663,lemma,brocà,sm,broccato,broca
+664,lemma,bròca,sf,"1. brocca; 2. chiodo a testa larga, bulletta da calzolaio",broca
+665,lemma,bròca da zapa,sf,chiodo per scarponi da montagna.,broca da zapa
+666,lemma,brocàr,sm,operaio nelle fabbrica delle brocche (chiodi),brocar
+667,lemma,brochéta,sf,"puntina da disegno, chiodino",brocheta
+668,lemma,brochéta,sm,"chiodaiolo, chi fabbrica le broche o i chiodi",brocheta
+669,locuzione,brochéte (bater –),loc,battere i denti dal freddo,brochete (bater –)
+670,lemma,bròcol,sm,"broccolo, cavolfiore",brocol
+671,lemma,brocón,sm,erica (pianta),brocon
+672,lemma,brocón,sm,grande chiodo per legno,brocon
+673,lemma,bròda,sf,"brodo acquoso, brodaglia",broda
+674,lemma,bródech,agg,"sporco, lercio, sudicio",brodech
+675,locuzione,bródega (la è –),loc,"è una cosa poco pulita, oppure rischiosa",brodega (la e –)
+676,lemma,brodegàr,vb,"imbrattare, sporcare, sbrodolare",brodegar
+677,lemma,brodegarse,vb,"macchiarsi, sporcarsi, imbrattarsi",brodegarse
+678,lemma,brodeghìṡia,sf,"sudiceria, sporcizia, luridume",brodeghisia
+679,lemma,brodegón,sm,"sbrodolone, sudicione, maialone, noncurante; fig. sparlatore - anche: sbrodegón",brodegon
+680,locuzione,bròdi lónghi,loc,"chiacchiere inconcludenti, discorsi prolissi",brodi longhi
+681,locuzione,bròdo ( che –),loc,"che noia, uffa",brodo ( che –)
+682,lemma,broènt,agg,"bollente, caldissimo che scotta - anche: brovènt",broent
+683,lemma,broentàr,vb,"sbollentare, scottare",broentar
+684,lemma,brògia,sf,brina gelata,brogia
+685,lemma,bròldo,agg,"smorto, brutta cera; emaciato",broldo
+686,lemma,brólo,sm,"prato alberato e recintato, giardino, parco, broilo",brolo
+687,lemma,brontolamént,sm,"brontolamento, borbottio",brontolament
+688,locuzione,brontolamént de budèle,loc,"brontolio delle visceri, brontolamento delle budella",brontolament de budele
+689,lemma,brontolàr,vb,brontolare,brontolar
+690,lemma,bronżìn,sm,1. piccola pentola di bronzo; 2. campanello di bronzo,bronzin
+691,lemma,brovada,agg,"scottata, scottatura,",brovada
+692,lemma,brovàr,vb,"sbollentare, scottare, bollire - anche: brovér, broar",brovar
+693,lemma,bròz,sm,carro a due ruote per trascinare la legna,broz
+694,lemma,bròz,sm,"persona tracagnotta, tozza, pesante",broz
+695,lemma,brozaròl,sm,conducente del broz,brozarol
+696,lemma,brudo,agg,"brullo, spoglio, squallido, desolato",brudo
+697,locuzione,brudo (nudo e –),loc,"senza nulla addosso, spoglio, arido",brudo (nudo e –)
+698,lemma,brufèl,sm,"brufolo, foruncolo, pustola, bollicina - anche: brùfol, brufèle",brufel
+699,lemma,brugna,sf,prugna,brugna
+700,lemma,brugnàr,sm,prugno (pianta) - anche:brugnara,brugnar
+701,lemma,brugnòcola,sf,"bitorzolo, bernoccolo, bozzo, ematoma",brugnocola
+702,lemma,brugnòl,sm,"susina, prugnola (gialla o rossa)",brugnol
+703,lemma,brugnolàr,sm,prugnolo; pianta di prugne selvatiche,brugnolar
+704,lemma,bruma,sf,"rugiada gelata, brina, brinata, foschia",bruma
+705,lemma,brumà,agg,"brinato, gelato - anche: embrumà",bruma
+706,lemma,bruṡà,agg,bruciato,brusa
+707,lemma,bruṡacòr,sm,"acidità di stomaco, bruciore di stomaco",brusacor
+708,lemma,bruṡadura,sf,"bruciatura, ustione",brusadura
+709,lemma,bruṡàr,vb,"bruciare, incendiare, ardere",brusar
+710,lemma,bruscàr,vb,"scornare, tirar cornate (buoi, mucche)",bruscar
+711,lemma,brusche,sfpl,"pezzetti di legno di diversa lunghezza, usati per tirare a sorte",brusche
+712,lemma,bruschìn,sm,"bruschino, brusca, spazzola per pulire panni o animali",bruschin
+713,lemma,bruschinàr,vb,"bruschinare, spazzolare, strigliare col bruschino",bruschinar
+714,lemma,bruscol,sm,"bruscolo, pagliuzza, festuca",bruscol
+715,lemma,bruṡe,sf,"soffia, (soffiar del fuoco), scotta",bruse
+716,lemma,brusèla,sf,"brufolo, foruncolo, pustola (senza pus)",brusela
+717,locuzione,brusèle (pién de –),loc,"pieno di brufoli, con tante pustole",brusele (pien de –)
+718,lemma,bruṡór,sm,"1. bruciore, infiammazione, irritazione; 2. rodimento, umiliazione",brusor
+719,lemma,brusti,smpl,"sanguinacci, boldoni - anche:baldonàz",brusti
+720,lemma,brustolà,agg,"abbrustolito, bruciato, abbrustolito",brustola
+721,lemma,brustolàr,vb,"abbrustolire, tostare, bruciacchiare",brustolar
+722,lemma,brustolìn,sm,"farina bianca tostata per minestre, ecc.",brustolin
+723,locuzione,brustolìn (odor de –),loc,odore di bruciaticcio; anche: odór de tacà żó,brustolin (odor de –)
+724,lemma,brustolón,sm,1. sanguinaccio; 2. fig. pene,brustolon
+725,lemma,brut,agg,"brutto, malfatto, nuvoloso",brut
+726,lemma,brut mal,sm,"epilessia, mal caduto; anche: brutmal o mal brut",brut mal
+727,lemma,brutàt,agg,bruttarello,brutat
+728,lemma,brużer,vb,"muggire lamentoso, mugghiare",bruzer
+729,lemma,bùa,sf,"male, dolore (infantile)",bua
+730,lemma,budèl,sm,"budello, intestino",budel
+731,lemma,budèle,sfpl,"viscere, intestino, budella anche per insaccati",budele
+732,lemma,bufa,sf,"vescicola, bolla, vescichetta",bufa
+733,locuzione,bufa ai pèi,es,vescicole ai piedi,bufa ai pei
+734,lemma,bufét,sm,buffetto,bufet
+735,lemma,bufón,sm,"buffone, mattacchione, cialtrone",bufon
+736,lemma,bugada,sf,"bucato, lavatura",bugada
+737,lemma,buganza,sf,"gelone, pernione",buganza
+738,locuzione,buganze ai pèi,es,"geloni ai piedi, arrossamenti o infiammazione dal freddo",buganze ai pei
+739,lemma,bugaròl,sm,"ceneraccio, ceneracciolo; lenzuolo per contenere la cenere durante il bucato lisivaz",bugarol
+740,lemma,bugàt,sm,"bigatto, verme, larva, bruco",bugat
+741,lemma,bugna,sf,"ammaccatura, botta, ecchimosi",bugna
+742,lemma,bugna,sm,"persona scontrosa, lunatica, testarda, cocciuta",bugna
+743,lemma,bula,sf,"1. pula, buccia del grano; 2. ragazza che tiene molto al suo aspetto esteriore.",bula
+744,lemma,bulada,sf,"spacconata, smargiassata, bravata, azione spavalda",bulada
+745,lemma,bulazo,sm,"spavaldo, baldanzoso, arrogante, ardito",bulazo
+746,lemma,bulo,sm,"bullo, spavaldo, spaccone, gradasso",bulo
+747,lemma,buràr,vb,"incornare, battersi a cornate (fra bestie)",burar
+748,lemma,buro,sm,burro - anche: botér,buro
+749,lemma,burón,sm,"burrone, precipizio, gola",buron
+750,lemma,bus,sm,"buco, foro, scavo",bus
+751,locuzione,bus (en de'n –),loc,"in un buco, dentro un buco, all'interno di buco",bus (en de'n –)
+752,locuzione,bus (pasàr per en – de n'ucia),loc,"cavarsela a stento, portare a casa la pelle",bus (pasar per en – de n'ucia)
+753,locuzione,bus (pèżo el tacón del –),loc,peggio la correzione che lo stato originale,bus (pezo el tacon del –)
+754,locuzione,bus de af,loc,"alveare, fig. moltitudine rumorosa e minacciosa",bus de af
+755,locuzione,bus de l'ucia,loc,cruna,bus de l'ucia
+756,lemma,buṡa,sf,"buca, fossa, tana, incavatura",busa
+757,locuzione,buṡa de la grasa,loc,"concimaia, letamaio",busa de la grasa
+758,locuzione,bùsa (méter en –),loc,"mettere i recipienti di legno nell'acqua perché si rassodino (botte, tino, secchia)",busa (meter en –)
+759,lemma,buṡaca,sf,"bisaccia, sacca",busaca
+760,lemma,buṡàt,sm,"buchetto, piccolo foro, pertugio, tana degli insetti",busat
+761,lemma,buṡata,sf,"buchetta, tana degli insetti, fossetta del mento",busata
+762,lemma,buṡnàr,vb,"ronzare delle api, fischiare delle orecchie, ronzare cercare di avvicinare una ragazza",busnar
+763,lemma,buṡnór,sm,"ronzio, brusio (delle api)",busnor
+764,lemma,busòl,sm,piccolo mazzo di fiori - anche: pusòl,busol
+765,locuzione,buṡòl de af,loc,arnia,busol de af
+766,lemma,busolòt,sm,"bussolotto, barattolo",busolot
+767,lemma,but,sm,"getto, germoglio, gemma, pollone",but
+768,lemma,butada,sf,"1. spintone, buttata; 2. battuta, scherzo, ironia 3. grande ripresa di vegetazione",butada
+769,lemma,butàr,vb,"1. buttare, gettare, lanciare 2. spingere, crescere, zampillare, sorgere 3. spuntare, germogliare",butar
+770,locuzione,butàr 'n òcio,loc,"dare un'occhiata, tenere d'occhio",butar 'n ocio
+771,locuzione,butàr (al – del sól),loc,"ai primi raggi del sole, al sorgere del sole",butar (al – del sol)
+772,locuzione,butàr a vòlt,loc,"gettare a terra, atterrare",butar a volt
+773,locuzione,butàr da na banda,loc,"buttare da qualche parte, togliere di mezzo, rimuovere, scostare",butar da na banda
+774,locuzione,butàr dént,loc,"sfondare, irrompere",butar dent
+775,locuzione,butàr fòr,loc,"estromettere, espellere, buttare fuori, mescere, scodellare",butar for
+776,locuzione,butàr fòr l'ànima,loc,"mettercela tutta, dare il massimo",butar for l'anima
+777,locuzione,butar per aria,loc,"buttare all'aria, mettere sottosopra, mettere a soqquadro, stravolgere",butar per aria
+778,locuzione,butàr per tèra,loc,"gettare a terra, far cadere a terra",butar per tera
+779,locuzione,butàr su,loc,"spingere verso alto, rimettere, vomitare, rigettare",butar su
+780,locuzione,butàr su chili,loc,"ingrassare, metter su carne",butar su chili
+781,locuzione,butàr via,loc,"buttare via, gettare, sprecare",butar via
+782,locuzione,butàr żó,loc,"buttare giù, abbattere, subire, ingoiare, mandare giù",butar zo
+783,locuzione,butarse żó,loc,"buttarsi giù, deprimersi, coricarsi, sdraiarsi, mettersi a letto",butarse zo
+784,locuzione,buti (l'ha apéna més i –),loc,"è germogliata da poco, ha appena messo i germogli",buti (l'ha apena mes i –)
+785,lemma,butòn,sm,"spintone, spinta, raccomandazione, aiuto",buton
+786,lemma,bùżera,sf,"fregatura, fandonia, baggianata, sproposito",buzera
+787,locuzione,bùżera (far nar żo la –),loc,far perdere la pazienza,buzera (far nar zo la –)
+788,lemma,bużerada,sf,"buggerata, bidone, inganno, imbroglio",buzerada
+789,lemma,bużeràr,vb,"buggerare, gabbare, imbrogliare",buzerar
+790,lemma,bużerón,agg,"scaltro, mariolo, imbroglione",buzeron

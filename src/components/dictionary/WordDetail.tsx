@@ -1,5 +1,5 @@
 import { DictionaryEntry, GrammarCategory } from '@/types/dictionary';
-import { Volume2, X, ArrowRight, Image as ImageIcon } from 'lucide-react';
+import { Volume2, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { WordCard } from './WordCard';
@@ -21,6 +21,10 @@ const categoryLabels: Record<GrammarCategory, string> = {
   congiunzione: 'Congiunzione',
   esclamazione: 'Esclamazione',
   locuzione: 'Locuzione',
+  articolo: 'Articolo',
+  numerale: 'Numerale',
+  interiezione: 'Interiezione',
+  altro: 'Altro',
 };
 
 export function WordDetail({ entry, similarWords, onClose, onSelectSimilar }: WordDetailProps) {
@@ -32,8 +36,8 @@ export function WordDetail({ entry, similarWords, onClose, onSelectSimilar }: Wo
   };
 
   return (
-    <div className="fixed inset-0 z-50 bg-background/80 backdrop-blur-sm animate-fade-in">
-      <div className="fixed inset-y-0 right-0 w-full max-w-2xl bg-background border-l border-border shadow-medium overflow-y-auto animate-slide-up">
+    <div className="fixed inset-0 z-50 bg-background/80 backdrop-blur-sm animate-blur-in">
+      <div className="fixed inset-y-0 right-0 w-full max-w-2xl bg-background border-l border-border shadow-medium overflow-y-auto animate-slide-in-right">
         {/* Header */}
         <div className="sticky top-0 bg-background/95 backdrop-blur border-b border-border p-6 flex items-start justify-between">
           <div>
@@ -99,16 +103,18 @@ export function WordDetail({ entry, similarWords, onClose, onSelectSimilar }: Wo
             </section>
           )}
 
-          {/* Image Placeholder */}
+          {/* Image */}
           {entry.imageUrl && (
             <section>
               <h3 className="font-display text-lg font-semibold mb-3">Immagine</h3>
-              <div className="aspect-video bg-muted rounded-xl flex items-center justify-center border border-border">
-                <div className="text-center text-muted-foreground">
-                  <ImageIcon className="h-12 w-12 mx-auto mb-2 opacity-50" />
-                  <p className="text-sm">Immagine disponibile</p>
-                </div>
-              </div>
+              <img
+                src={entry.imageUrl}
+                alt={entry.dialectWord}
+                className="w-full rounded-xl border border-border object-cover max-h-80"
+                onError={(e) => {
+                  (e.currentTarget as HTMLImageElement).style.display = 'none';
+                }}
+              />
             </section>
           )}
 

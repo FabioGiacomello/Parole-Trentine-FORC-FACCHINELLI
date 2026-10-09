@@ -7,12 +7,16 @@ import { Textarea } from '@/components/ui/textarea';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { useToast } from '@/hooks/use-toast';
 import { ArrowLeft, Save, Loader2 } from 'lucide-react';
+import type { Gender, GrammarCategory, Number } from '@/types/dictionary';
 
 interface DictionaryEntry {
   id: string;
   dialect_word: string;
   italian_word: string;
   category: string;
+  gender: string | null;
+  number: string | null;
+  source_category: string | null;
   definition: string | null;
   examples: string[] | null;
 }
@@ -23,8 +27,6 @@ interface WordEditorProps {
   onCancel: () => void;
 }
 
-type GrammarCategory = 'sostantivo' | 'verbo' | 'aggettivo' | 'avverbio' | 'preposizione' | 'congiunzione' | 'esclamazione' | 'pronome' | 'locuzione';
-
 const CATEGORIES: GrammarCategory[] = [
   'sostantivo',
   'verbo',
@@ -34,13 +36,19 @@ const CATEGORIES: GrammarCategory[] = [
   'congiunzione',
   'esclamazione',
   'pronome',
-  'locuzione'
+  'locuzione',
+  'articolo',
+  'numerale',
+  'interiezione',
+  'altro'
 ];
 
 export function WordEditor({ entry, onSave, onCancel }: WordEditorProps) {
   const [dialectWord, setDialectWord] = useState(entry?.dialect_word || '');
   const [italianWord, setItalianWord] = useState(entry?.italian_word || '');
   const [category, setCategory] = useState<GrammarCategory>((entry?.category as GrammarCategory) || 'sostantivo');
+  const [gender, setGender] = useState<Gender | ''>((entry?.gender as Gender) || '');
+  const [number, setNumber] = useState<Number | ''>((entry?.number as Number) || '');
   const [definition, setDefinition] = useState(entry?.definition || '');
   const [examples, setExamples] = useState(entry?.examples?.join('\n') || '');
   const [saving, setSaving] = useState(false);
@@ -64,6 +72,9 @@ export function WordEditor({ entry, onSave, onCancel }: WordEditorProps) {
       dialect_word: dialectWord.trim(),
       italian_word: italianWord.trim(),
       category,
+      gender: category === 'sostantivo' ? gender || null : null,
+      number: category === 'sostantivo' ? number || null : null,
+      source_category: entry?.category === category ? entry.source_category : null,
       definition: definition.trim() || null,
       examples: examples.split('\n').map(e => e.trim()).filter(Boolean)
     };
@@ -86,7 +97,7 @@ export function WordEditor({ entry, onSave, onCancel }: WordEditorProps) {
     setSaving(false);
     
     if (error) {
-      console.error('Error saving entry:', error);
+      console.error('Errore nel salvataggio della voce:', error);
       toast({
         variant: 'destructive',
         title: 'Errore',
@@ -153,6 +164,44 @@ export function WordEditor({ entry, onSave, onCancel }: WordEditorProps) {
             </SelectContent>
           </Select>
         </div>
+
+        {category === 'sostantivo' && (
+          <div className="grid gap-6 sm:grid-cols-2">
+            <div className="space-y-2">
+              <Label htmlFor="gender">Genere</Label>
+              <Select
+                value={gender || 'none'}
+                onValueChange={(value) => setGender(value === 'none' ? '' : value as Gender)}
+              >
+                <SelectTrigger id="gender">
+                  <SelectValue />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="none">Non specificato</SelectItem>
+                  <SelectItem value="maschile">Maschile (sm)</SelectItem>
+                  <SelectItem value="femminile">Femminile (sf)</SelectItem>
+                  <SelectItem value="neutro">Neutro</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+            <div className="space-y-2">
+              <Label htmlFor="number">Numero</Label>
+              <Select
+                value={number || 'none'}
+                onValueChange={(value) => setNumber(value === 'none' ? '' : value as Number)}
+              >
+                <SelectTrigger id="number">
+                  <SelectValue />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="none">Non specificato</SelectItem>
+                  <SelectItem value="singolare">Singolare</SelectItem>
+                  <SelectItem value="plurale">Plurale</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+          </div>
+        )}
 
         <div className="space-y-2">
           <Label htmlFor="definition">Definizione</Label>

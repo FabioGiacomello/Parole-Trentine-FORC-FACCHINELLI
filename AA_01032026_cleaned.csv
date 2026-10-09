@@ -1,0 +1,443 @@
+﻿Num,Tipo,Voce,Cat,Italiano,Et_Audio
+1,lemma,a,prep,a,a
+2,lemma,abadàr,vb,"badare, dar retta, dare ascolto, custodire, aver cura",abadar
+3,lemma,abate,sm,"abate, seminarista",abate
+4,lemma,abazìa,sf,"abbazia, convento",abazia
+5,lemma,abelimént,sm,"abbellimento, decorazione, ornamento",abeliment
+6,lemma,abelìr,vb,"abbellire, ornare, decorare",abelir
+7,lemma,abilitazión,sf,abilitazione,abilitazion
+8,lemma,abìs,sm,"abisso, baratro",abis
+9,lemma,abit,sm,"abito, vestito",abit
+10,lemma,abitàr,vb,"abitare, risiedere",abitar
+11,lemma,abitazión,sf,"abitazione, alloggio",abitazion
+12,lemma,abituà,agg,"abituato, assuefatto, avvezzo",abitua
+13,lemma,abituàr,vb,"abituare, avvezzare",abituar
+14,lemma,abocamént,sm,"abboccamento, colloquio",abocament
+15,lemma,abocàr,vb,abboccare,abocar
+16,lemma,abolì,agg,abolito,aboli
+17,lemma,abolìr,vb,abolire,abolir
+18,lemma,abonamént,sm,abbonamento,abonament
+19,lemma,abondanza,sf,abbondanza,abondanza
+20,lemma,abozàr,vb,abbozzare - anche: sbozàr,abozar
+21,lemma,abràz,sm,"abbraccio, effusione, stretta",abraz
+22,lemma,abrazàr,vb,"abbracciare, contenere, cingere, imbracciare - anche: embrazar",abrazar
+23,lemma,àca,sf,acca (lettere dell'alfabeto),aca
+24,lemma,acadér,vb,"accadere, capitare",acader
+25,lemma,acadù,sm,"accaduto, evento, avvenimento, fatto, circostanza; anche: acadèst",acadu
+26,lemma,acàza,sf,"acacia, robinia - anche: acàz",acaza
+27,lemma,acecàr,vb,accecare,acecar
+28,lemma,acèt,sm,"accoglienza, benvenuto - anche: acèto",acet
+29,locuzione,acèt (far en bon –),loc,fare buona accoglienza,acet (far en bon –)
+30,lemma,acetazión,sf,accettazione,acetazion
+31,lemma,acèto,sm,"accoglienza, benvenuto - anche: acèt",aceto
+32,lemma,àcherle,sm,uncinetto per lavorare i pizzi,acherle
+33,lemma,acoliènza,sf,"accoglienza, ospitalità",acolienza
+34,lemma,acónt,sm,"acconto, caparra, anticipo",acont
+35,lemma,acórer,vb,"accorrere, affrettarsi",acorer
+36,lemma,acòrżer,vb,"accorgere, scorgere, capire, notare - anche: nascòrzer",acorzer
+37,lemma,acòrżerse,vb,"accorgersi, vedere, intuire, notare - anche: nascòrzerse",acorzerse
+38,lemma,acuṡàr,vb,"accusare, incolpare, querelare",acusar
+39,lemma,acuṡo,sm,accusata al gioco; (es.: l'accuso nel gioco delle carte),acuso
+40,lemma,adaṡi,avv,"adagio, con calma, prudentemente",adasi
+41,lemma,adaṡiòt,avv,"adagino, piano piano, con calma, con cutela",adasiot
+42,lemma,adàt,agg,"adatto, opportuno",adat
+43,lemma,adatàr,vb,"adattare, adeguare, modificare",adatar
+44,lemma,adebitàr,vb,"addebitare, attribuire, detrarre",adebitar
+45,lemma,adés,avv,"adesso, ora, subito",ades
+46,lemma,Àdes,np,Adige (fiume),ades
+47,lemma,adét,agg,"addetto, incaricato, delegato",adet
+48,lemma,adìo,sm,addio,adio
+49,lemma,adorazión,sf,"adorazione, culto",adorazion
+50,lemma,adòs,avv,"addosso, indosso, troppo vicino",ados
+51,lemma,adotàr,vb,"adottare, affiliare, accogliere",adotar
+52,lemma,adré adré,loc,a mano a mano,adre adre
+53,lemma,adulàr,vb,adulare,adular
+54,lemma,adulazión,sf,adulazione,adulazion
+55,lemma,adultèri,sm,"adulterio, infedeltà",adulteri
+56,lemma,af,sf,ape,af
+57,locuzione,af (bus de –),loc,alveare,af (bus de –)
+58,lemma,afabil,agg,affabile - anche: afàbile,afabil
+59,lemma,afàn,sm,"affanno, dolore, tormento",afan
+60,lemma,afanàr,vb,"affannare, preoccupare, agitare",afanar
+61,lemma,afàr,sm,"affare, faccenda, oggetto, cosa",afar
+62,lemma,afaròt,sm,"affaruccio, affaretto",afarot
+63,lemma,afasinàr,vb,"affascinare, allettare, stregare",afasinar
+64,lemma,afàt,avv,"gratis, per niente - anche: gratis",afat
+65,lemma,afazàr,vb,"affacciare, mostrare, sporgere",afazar
+66,lemma,afazarse,vb,"affacciarsi, mostrarsi, sporgersi",afazarse
+67,lemma,afèt,sm,affetto,afet
+68,lemma,afetàr,vb,"affettare, tagliare a fette",afetar
+69,lemma,afetuós,agg,affettuoso,afetuos
+70,lemma,afezión,sf,"affezione, sentimento",afezion
+71,lemma,aflìt,agg,afflitto,aflit
+72,lemma,aflizión,sf,"afflizione, cruccio, angustia",aflizion
+73,lemma,afolamént,sm,affollamento,afolament
+74,lemma,africàn,agg,africano,african
+75,lemma,afrónt,sm,"affronto, offesa, sgarbo",afront
+76,lemma,agìr,vb,"agire, darsi da fare, ingegnarsi",agir
+77,lemma,agità,agg,"agitato, ansioso",agita
+78,lemma,agitamént,sm,"agitazione, movimento, rimescolamento",agitament
+79,lemma,agitazión,sf,"agitazione, inquietudine, eccitazione",agitazion
+80,lemma,agiunger,vb,aggiungere - anche: żontar,agiunger
+81,lemma,agnèl,sm,agnello,agnel
+82,lemma,agnelòt,sm,agnellino,agnelot
+83,lemma,àgola,sf,aquila,agola
+84,lemma,agolàz,sm,astore (uccello rapace),agolaz
+85,lemma,agolìn,sm,"falco, cuculo, gheppio",agolin
+86,lemma,agoniżàr,vb,agonizzare,agonizar
+87,lemma,agóst,sm,agosto,agost
+88,locuzione,agra (la è -),es,"è dura, è triste",agra (la e -)
+89,lemma,agràm,sm,gramigna; anche: gràm; gramegna,agram
+90,lemma,agratis,avv,"gratis, per niente - anche: gratis",agratis
+91,lemma,agravàr,vb,"aggravare, accentuare",agravar
+92,lemma,agravarse,vb,"aggravarsi, accrescere",agravarse
+93,lemma,agravi,sm,"aggravio, aggiunta, peso, in più",agravi
+94,lemma,agredìr,vb,aggredire,agredir
+95,lemma,agresión,sf,"aggressione, assalto, scippo",agresion
+96,lemma,agresór,sm,"aggressore, assalitore",agresor
+97,lemma,agro,agg,"1. agro, acidulo, acerbo; 2. stanco, annoiato",agro
+98,locuzione,agro e stomegà,loc,"arcistufa, più che stufa, nauseata",agro e stomega
+99,lemma,agrodólz,agg,agrodolce,agrodolz
+100,lemma,aguana,sf,"strega, maga",aguana
+101,lemma,aguèi,sm,"ago, pungiglione - anche: aguèl",aguei
+102,lemma,aì,avv,sì,ai
+103,lemma,ài,sm,aglio,ai
+104,locuzione,ài (na costa de –),loc,uno spicchio di aglio,ai (na costa de –)
+105,lemma,àida,sm,aiuto,aida
+106,lemma,aidàr,vb,aiutare,aidar
+107,lemma,aìdeme valà,es,"aiutami orsù, aiutami ti prego",aideme vala
+108,lemma,aiéri,avv,ieri - anche: algeri,aieri
+109,lemma,aiòle,sfpl,aiuòle,aiole
+110,lemma,aisbèrg,sm,iceberg,aisberg
+111,lemma,aiùt,sm,aiuto,aiut
+112,lemma,aiutàr,vb,aiutare,aiutar
+113,lemma,aizimpóner,sm,operaio che andava a far lavori ferroviari - anche: aisenpóner,aizimponer
+114,lemma,ala,sf,1. ala degli uccelli; 2. tesa del cappello,ala
+115,lemma,alber,sm,albero,alber
+116,lemma,àlbera,sf,pioppo - anche: àrbola,albera
+117,lemma,albeżàr,vb,"albeggiare, spuntar dell'alba",albezar
+118,lemma,albi (sm),sm,truogolo dove mangiano e bevono i maiali,albi (sm)
+119,lemma,àlbitro,sm,arbitro,albitro
+120,lemma,alborèla,sf,fungo: Boletus rufus,alborela
+121,lemma,aldelà,sm,"al di là, oltre la morte",aldela
+122,lemma,aldelà,sf,"aldilà, eternità, oltretomba",aldela
+123,lemma,aleghér,agg,"allegro, contento, piacevole",alegher
+124,lemma,alegrìa,sf,"allegria, felicità",alegria
+125,lemma,alégro,agg,"1. allegro, lieto; 2. alticcio, brillo",alegro
+126,lemma,alegrón,sm,"allegrone, mattacchione",alegron
+127,lemma,alenarse,vb,"allenarsi, esercitarsi, far pratica",alenarse
+128,lemma,alenatór,sm,"allenatore, istruttore",alenator
+129,lemma,alevàr,sm,"alveare, apiario",alevar
+130,lemma,alfìn,avv,"alfine, finalmente",alfin
+131,lemma,algéri,avv,ieri - anche: aiéri,algeri
+132,lemma,algéri de matina,es,"ieri mattina, al mattino di ieri",algeri de matina
+133,lemma,alimént,sm,alimento,aliment
+134,lemma,alimentàr,vb,alimentare,alimentar
+135,lemma,almén,avv,almeno - anche: almànco,almen
+136,lemma,alòch,sm,allocco,aloch
+137,lemma,alóra,avv,"1. allora, una volta; 2. perciò,quindi, in tal caso",alora
+138,lemma,alożàr,vb,alloggiare,alożar
+139,lemma,alòżo,sm,alloggio,alozo
+140,lemma,alséra,avv,ieri sera,alsera
+141,lemma,alt,agg,alto,alt
+142,lemma,altàr,sm,altare,altar
+143,lemma,altarìn,sm,"altarino, fig. marachella",altarin
+144,lemma,altòt,agg,"1. piuttosto alto; 2. alticcio, brillo",altot
+145,lemma,altràn,sm,anno precedente a quello in corso,altran
+146,lemma,altréri,avv,"l'altro ieri, ieri l'altro (il giorno prima di ieri); anche: altrodì",altreri
+147,locuzione,altréri (l' –),loc,"l'altro ieri, ieri altro, avantieri",altreri (l' –)
+148,locuzione,altréri (l'è sta l'–),es,"è stato l'altro ieri, è successo ieri l'altro",altreri (l'e sta l'–)
+149,lemma,altretànt,avv,altrettanto,altretant
+150,lemma,alvèrs,avv,"a proposito, al momento opportuno, giustappunto; anche: al vèrs, giustalvèrs",alvers
+151,lemma,alz,sm,congegno per regolare il tiro nelle armi da fuoco,alz
+152,lemma,alzadina,sf,"alzata, rialzo",alzadina
+153,lemma,alzàr,vb,"alzare, sollevare",alzar
+154,lemma,alzer,sm,"argine, terrapieno, nell'irrigazione fa passare l'acqua da un canale all'altro",alzer
+155,lemma,alzéta,sf,"risvolto di una parte di un vestito, risvolta",alzeta
+156,lemma,am,sm,"amo da pesca, uncino",am
+157,lemma,amàr,vb,"amare, voler bene",amar
+158,lemma,amàr,agg,"1. amaro; 2. doloroso, triste",amar
+159,lemma,amaréza,sf,"amarezza, disgusto, rincrescimento, delusione",amareza
+160,lemma,amarìn,agg,"amarino, alquanto amaro",amarin
+161,lemma,amaròt,agg,"amarognolo, tendente all'amaro",amarot
+162,lemma,ambizión,sf,ambizione,ambizion
+163,lemma,ambiziós,agg,ambizioso,ambizios
+164,lemma,amblèt,sm,"omelette, frittata - anche: amlèt, omlèt, fortaia",amblet
+165,lemma,àmeda,sf,1. zia; 2. spregiativo 'zitella attempata',ameda
+166,lemma,àmen,sf,"1. così sia; 2. attimo, istante, momento, baleno",amen
+167,locuzione,àmen (en té'n –),loc,un un attimo,amen (en te'n –)
+168,lemma,ametér,vb,"ammettere, accettare, accogliere, convenire",ameter
+169,lemma,amico,sm,"amico, compagno",amico
+170,lemma,amò,avv,"ancora, nuovamente",amo
+171,lemma,àmol,sm,susina,amol
+172,lemma,amór,sm,"amor, amore",amor
+173,locuzione,amór (nar en –),loc,"andare in amore, innamorarsi, perdere la testa",amor (nar en –)
+174,locuzione,amoredèi,loc,per l'amore di Dio,amoredei
+175,lemma,amoreżàr,vb,"amoreggiare, flirtare, far coppia, fidanzarsi, frequentarsi",amorezar
+176,lemma,ampò,avv,"finalmente, tuttavia, però, nonostante questo",ampo
+177,lemma,àmpola,sf,"ampolla, vaso di vetro con beccuccio",ampola
+178,lemma,ampolina,sf,"ampollina, boccetta, flaconcino",ampolina
+179,locuzione,ampolina (far veder S. Pero en ten –),loc,"fig. far vedere una cosa per un'altra, ingannare",ampolina (far veder S. Pero en ten –)
+180,lemma,ampómola,sf,lampone,ampomola
+181,lemma,ampomolàr,sm,"pianta di lamponi, piantagione di lamponi",ampomolar
+182,lemma,an,sm,anno,an
+183,locuzione,an (da 'n – a l'altro),es,da un anno all'altro,an (da 'n – a l'altro)
+184,locuzione,an bisèst,es,anno bisestile,an bisest
+185,locuzione,an che vèn,es,anno successivo a quello presente,an che ven
+186,locuzione,an de là,loc,l'altr'anno,an de la
+187,locuzione,an pasà,es,anno scorso,an pasa
+188,lemma,ànadra,sf,anatra,anadra
+189,lemma,anca,avv,"anche, ancora, in più, pure, altresì",anca
+190,locuzione,anca (se –),loc,"se pure, quando pure; anche: anca sé",anca (se –)
+191,locuzione,anca l'è vera,loc,"anche ti credo, questa poi, che balla",anca l'e vera
+192,lemma,ancabèn,cong,"anche se, sebbene, quand'anche, se pure",ancaben
+193,locuzione,anch'adès,es,anche adesso,anch'ades
+194,lemma,ancòi,avv,"oggi, oggigiorno",ancoi
+195,locuzione,ancòi (al dì de –),es,al giorno d'oggi,ancoi (al di de –)
+196,locuzione,ancòi gh'è n'aria che bèca,es,oggi c'è l'aria fredda pungente,ancoi gh'e n'aria che beca
+197,lemma,ancór,avv,ancora,ancor
+198,lemma,ancużen,sf,incudine,ancuzen
+199,lemma,anda,sf,"corsa, movimento, mossa, comportamento",anda
+200,locuzione,anda (aver 'n –),loc,aver premura,anda (aver 'n –)
+201,locuzione,anda (che –),loc,"che impeto, che fretta, che portamento, che passione",anda (che –)
+202,locuzione,anda (nar de –),loc,"andare di fretta, andare di corsa",anda (nar de –)
+203,lemma,andadóra,sf,"ponte di entrata nelle aie o altane di stabili rurali, ponteggio di assi per muratori",andadora
+204,lemma,andana,sf,striscia di fieno segata,andana
+205,lemma,andazo,sm,"abitudine, tendenza, usanza",andazo
+206,lemma,andìbia,sf,indivia (ortaggio). anche: endivia,andibia
+207,lemma,andit,sm,1. corridoio; 2. piccolo terreno adiacente alla casa; 3. passaggio consortile,andit
+208,lemma,andón,sm,"fieno ammassato in lunghe file, pronto per essere caricato sul carro",andon
+209,lemma,andóna,sf,fieno o cereali tagliati e messi in righe a terra,andona
+210,lemma,andonàr,vb,"accovonare, ammucchiare",andonar
+211,lemma,andòrmia,sf,"sonnifero, sedativo, calmante; anche: endòrmia",andormia
+212,lemma,andróna,sf,"viuzza, andito che dà sulla strada",androna
+213,lemma,ànedra,sf,"anitra, anatra; anche ànadra",anedra
+214,lemma,anedrànte,agg,starnazzante,anedrante
+215,lemma,anedràr,vb,"starnazzare, schiamazzare",anedrar
+216,lemma,anèl,sm,anello,anel
+217,lemma,aneṡ,sm,anice,anes
+218,lemma,àngol,sm,"angolo, canto, cantone",angol
+219,lemma,angósa,sf,angoscia,angosa
+220,lemma,angosàr,vb,angosciare,angosar
+221,lemma,anguriaro,sm,"venditore di angurie, gestore del chiosco di angurie",anguriaro
+222,locuzione,ani (sti –),loc,"una volta, tempi passati, un tempo",ani (sti –)
+223,locuzione,ani anorum,loc,"moltissimi anni, tanto tempo",ani anorum
+224,lemma,ànima,sf,"anima, spirito",anima
+225,locuzione,ànima (en l'–),loc,"nell'anima, nell'intimo",anima (en l'–)
+226,locuzione,ànima (la bòn'– de me nono),loc,"la buona anima di mio nonno, ricordare con affetto il nonno morto",anima (la bon'– de me nono)
+227,locuzione,ànima (secàr l'–),loc,"infastidire, tormentare, dar fastidio, rompere le scatole",anima (secar l'–)
+228,lemma,animàr,vb,"animare, stimolare, vivacizzare, allietare",animar
+229,lemma,animèla,sf,"lucignolo di cera che si collocano nei lumini a olio, luminello",animela
+230,lemma,ansàr,vb,"ansare, ansimare, respirare con affanno",ansar
+231,lemma,ansiós,agg,"ansioso, agitato, inquieto",ansios
+232,lemma,anta,sf,porta dell’armadio,anta
+233,lemma,antana,sf,"solaio, soffitta, sottotetto - anche: altana",antana
+234,lemma,antìch,agg,"antico, antiquato, preistorico",antich
+235,lemma,antiveżìlia,sf,"antivigilia, giorno prima della vigilia",antivezilia
+236,lemma,anuari,sm,"annuario, pubblicazione annuale",anuari
+237,lemma,anunziàr,vb,annunciare - anche: nunziar,anunziar
+238,lemma,anża,sf,"serpe, saettone - anche: lanza",anza
+239,lemma,anziàn,agg,"anziano, attempato, senile, esperto",anzian
+240,lemma,anziàna,sf,genziana (fiore),anziana
+241,locuzione,anziàna (radìs de –),es,radice di genziana,anziana (radis de –)
+242,lemma,anzianòt,agg,"anzianotto, attempato",anzianot
+243,locuzione,ànżoi (nar via cói –),loc,"addormentarsi beatamente, essere distratto",anzoi (nar via coi –)
+244,lemma,anżol,sm,"angelo, creatura celeste",anzol
+245,lemma,anżolét,sm,"angioletto, coscienza - anche: anżolìn",anzolet
+246,lemma,ào,sm,"trisavolo, antenato, avo",ao
+247,lemma,àola,sf,"sardina, sardella, pesce piccolo di lago",aola
+248,lemma,àole,smpl,"sardelle, sarde salate",aole
+249,lemma,aonèla,sf,pianta di ontano a basso fusto,aonela
+250,lemma,àono,sm,ontano,aono
+251,lemma,àoo!,escl,voce per fermare i buoi in marcia,aoo!
+252,lemma,apartamént,sm,"appartamento, quartiere.",apartament
+253,lemma,apéna,avv,"appena, soltanto, a stento",apena
+254,lemma,apòsta,avv,"apposta, volutamente",aposta
+255,lemma,après,avv,"in aggiunta, insieme come allegato, assieme con",apres
+256,lemma,aprìl,sm,aprile,april
+257,lemma,aprilante,sm,giorno di aprile,aprilante
+258,lemma,aqua,sf,acqua,aqua
+259,locuzione,aqua de melìsia,loc,acqua o spirito di melissa,aqua de melisia
+260,locuzione,aqua de védro,loc,silicato di sodio; usata per conservare le uova,aqua de vedro
+261,locuzione,aqua e mistrà,loc,liquore fatto con i frutti di anice - anche: mistrà,aqua e mistra
+262,lemma,aquaraṡa,sf,"acquaragia, essenza di trementina",aquarasa
+263,lemma,aquaròl,sm,"secondo vino, vinello, vino annacquato",aquarol
+264,lemma,aquaròla,sf,ciliegia di montagna - fig. acquolina in bocca,aquarola
+265,lemma,aquasandéra,sf,"acquasantiera, nelle chiese",aquasandera
+266,lemma,aquasantèl,sm,"acquasantiera, pila dell'acqua benedetta (anche presso il letto); anche: aquasandèl",aquasantel
+267,lemma,aquàz,sm,"guazza, rugiada, brina",aquaz
+268,lemma,aquiṡìr,vb,"acquisire, conseguire",aquisir
+269,lemma,aquiṡizión,sf,"acquisizione, ottenimento",aquisizion
+270,lemma,aquìst,sm,"acquisto, vantaggio",aquist
+271,lemma,aquistàr,vb,"acquistare, comperare - anche: cromprar, comprar, proveder",aquistar
+272,lemma,aquós,agg,"acquoso, acqueo",aquos
+273,lemma,ara,sf,"aia (rurale), stanzone all’entrata della casa",ara
+274,lemma,aràdio,sf,radio,aradio
+275,lemma,aràr,vb,arare,arar
+276,lemma,aratìf,sm,"seminativo, terreno lavorato",aratif
+277,lemma,aràz,sm,arazzo,araz
+278,lemma,arbandón,sm,"abbandono, incuria, trasandatezza",arbandon
+279,locuzione,arbandón (a l’–),loc,lasciato a se stesso,arbandon (a l’–)
+280,lemma,arbandonàr,vb,"abbandonare, lasciar perdere, ritirarsi",arbandonar
+281,lemma,arbasamént,sm,"abbassamento, cedimento, calo, avvallamento, sprofondamento",arbasament
+282,lemma,arbasàr,vb,"abbassare, ribassare, calare, ridurre - anche: sbasàr",arbasar
+283,lemma,arbol,sm,"albero, pianta",arbol
+284,lemma,arborèla,sf,pioppo,arborela
+285,lemma,arcada,sf,"arcata, volta",arcada
+286,lemma,archét,sm,"archetto, trappola per acchiappare uccelletti. Frase: ciapà en tel archet",archet
+287,lemma,archìvi,sm,"archivio, registro",archivi
+288,lemma,arcoàr,vb,"ammannare (far le manne), raccogliere il frumento da poter legare in covoni",arcoar
+289,lemma,àrder,vb,"ardere, bruciare",arder
+290,lemma,ardimént,sm,"ardimento, audacia, coraggio, baldanza",ardiment
+291,lemma,aredèla,sf,graticcio piccolo di canne o paglia,aredela
+292,lemma,arèla,sf,"graticcio, canniccio fatto di canne palustri",arela
+293,lemma,arènt,avv,"accanto, vicino, appresso, a ridosso",arent
+294,lemma,arènt,sm,"companatico, cibo di qualsiasi tipo che si mangia insieme al pane, polenta, ecc.",arent
+295,locuzione,arènt (còsa gh'è de –),loc,cosa c'è di companatico; cosa c'è da mangiare insieme col pane,arent (cosa gh'e de –)
+296,locuzione,arènt (tirarse –),es,"avvicinarsi, accostarsi, mettersi vicino, farsi compagnia",arent (tirarse –)
+297,locuzione,arènteghe vergót,es,"mettigli vicino qualche cosa, mettici dell'altro",arenteghe vergot
+298,lemma,àrfi,sm,"respiro, fiato pesante; anche: arf",arfi
+299,lemma,arfiàda,sf,"fiatata, soffiata, sudata",arfiada
+300,lemma,arfiàr,vb,"ansimare, respirare pesantemente, riprendere fiato",arfiar
+301,lemma,argàgn,sm,"1. arnese, ordigno, congegno; 2. riferito a persona: strana",argagn
+302,lemma,argagni,smpl,oggetti (dispregiativo),argagni
+303,lemma,arghen,sm,"argano, verricello",arghen
+304,lemma,"ari, ari!",escl,grido per incitare le bestie - es.: all'asino,"ari, ari!"
+305,lemma,aria,sf,"1. aria, brezza, refolo, 2. motivetto, canto, canzone",aria
+306,locuzione,aria grama,loc,"aria stagnante, nella canna fumaria o in miniera",aria grama
+307,locuzione,aria pelósa,loc,aria molto fredda,aria pelosa
+308,lemma,arieṡìna,sf,"arietta, frescura, venticello a volte pungente",ariesina
+309,lemma,ariòma,sm,"tremito, convulsione, forte agitazione, stato epilettico passeggero dei bambini",arioma
+310,lemma,arlechìn,sm,arlecchino - fig. persona inaffidabile,arlechin
+311,lemma,arléf,sm,"allievo, figlio, redo; piccolo di animale che si alleva",arlef
+312,lemma,arlevàr,vb,"allevare, far crescere, coltivare, tirare su",arlevar
+313,lemma,armada,sf,"armata, esercito",armada
+314,lemma,armadura,sf,"armatura, corazza",armadura
+315,lemma,armàndola,sf,"mandorla, anche: màndola",armandola
+316,lemma,armàr,sm,"armadio, guardaroba",armar
+317,lemma,armàr,vb,"armare, caricare, fortificare col cemento",armar
+318,lemma,armaròl,sm,armaiolo,armarol
+319,lemma,armarón,sm,"armadione, armadio enorme, omaccione",armaron
+320,lemma,armaròt,sm,armadietto,armarot
+321,lemma,armelìn,sm,albicocca,armelin
+322,lemma,armelinàr,sm,albero di albicocco,armelinar
+323,lemma,armeżàr,vb,"armeggiare, macchinare, trafficare",armezar
+324,lemma,arnés,sm,arnese,arnes
+325,lemma,arneṡòt,sm,piccolo arnese,arnesot
+326,lemma,arquanti,agg,"alquanti, alcuni, certuni, diversi, svariati",arquanti
+327,lemma,arsanàr,vb,"risanare, sanare, bonificare",arsanar
+328,lemma,arsenàl,sm,"arsenale, cosa o persona grande e goffa, ragazzo sventato",arsenal
+329,lemma,arsolàr,vb,risuolare (le scarpe) - anche: risolar,arsolar
+330,lemma,arteṡàn,sm,artigiano,artesan
+331,lemma,articiòch,sm,1. carciofo; 2. fig. uomo buono a nulla,articioch
+332,lemma,artìcol,sm,"1. articolo, pezzo 2. persona singolare",articol
+333,locuzione,artìcol (te séi 'n –),es,"sei proprio singolare, sei prorio eccentrico, particolare",articol (te sei 'n –)
+334,lemma,artifìzi,sm,"artificio, astuzia, dispositivo, invenzione, inganno",artifizi
+335,lemma,arvegnìr,vb,"rinvenire, ravvivare, rianimare, riprendere conoscenza",arvegnir
+336,lemma,arvizinàr,vb,avvicinare - anche: avizinàr,arvizinar
+337,lemma,arvizinarse,vb,"avvicinarsi, accostarsi, mettersi vicino - anche: tirarse arènt",arvizinarse
+338,lemma,arżen,sm,"argine, ripa, sponda. Anche: alzer, rosta",arzen
+339,lemma,arżènt,sm,argento,arzent
+340,lemma,arzibiṡnòni,smpl,"avi, progenitori",arzibisnoni
+341,lemma,arżignàr,vb,"caprugginare, il lavoro per incastrarvi il fondo delle botti; anche: enżignar le bót",arzignar
+342,lemma,arziprèt,sm,arciprete,arzipret
+343,lemma,as,sm,"asso, asse, assi, tavola segata",as
+344,locuzione,as (restar su l'– de le perséche),loc,"fallire, restare a terra, all'asciutto, senza niente",as (restar su l'– de le perseche)
+345,locuzione,as de le perséche,loc,asse sulla quale si mette mele e pere a fettine per farle essiccare,as de le perseche
+346,lemma,asà,avv,"abbastanza, a sufficienza",asa
+347,locuzione,asàlo star,es,"lasciatelo stare in pace, non fategli niente",asalo star
+348,lemma,asàr,vb,"1. lasciare, depositare, deporre, consegnare; 2.lasciare un posto o una persona, separarsi",asar
+349,lemma,ascòrżerse,vb,"accorgersi, notare, intuire - come nascorzerse",ascorzerse
+350,lemma,aṡé,sm,aceto - anche: asedo,ase
+351,locuzione,aṡé (nar en –),loc,"perdersi, smarrirsi, perdere il filo",ase (nar en –)
+352,locuzione,asé de pomi,es,aceto di mele,ase de pomi
+353,locuzione,aṡé de ṡpich,es,"infuso di lavanda e aceto, o canfora, contro il mal di testa",ase de spich
+354,lemma,aṡedàr,vb,mettere l'aceto,asedar
+355,lemma,asedèla,sf,"assicella, piccola asse",asedela
+356,lemma,aṡédo,sm,aceto - anche: asé,asedo
+357,lemma,asedón,sm,"la freccia del carro, che si unisce con la parte posteriore",asedon
+358,locuzione,àseme star,es,"lasciami stare, non tormentarmi",aseme star
+359,lemma,aṡen,sm,"asino, somaro, ciuco",asen
+360,lemma,aṡenada,sf,"asinata, grossa stupidaggine",asenada
+361,lemma,aṡenèl,sm,asinello,asenel
+362,lemma,aṡenón,sm,somarone,asenon
+363,lemma,aser,sm,acero,aser
+364,lemma,asguèlt,agg,"svelto, veloce; anche: sguèlt o asvèlt",asguelt
+365,lemma,aṡi,sm,"agio, comodo, opportunità, libertà",asi
+366,locuzione,aṡi (a bèl –),loc,a cavalluccio,asi (a bel –)
+367,lemma,aṡià,agg,"preparato, comodo",asia
+368,locuzione,aṡià (ṡét –),es,"sei pronto?, sei vestito?",asia (set –)
+369,lemma,aṡiàr,vb,"apparecchiare, preparare, agghindare, sistemare, allestire",asiar
+370,locuzione,aṡiarme (vago a –),es,"vado a prepararmi, a mettermi a posto",asiarme (vago a –)
+371,lemma,aṡiarṡe,vb,"prepararsi, agghindarsi, sistemarsi, lavarsi e pettinarsi",asiarse
+372,locuzione,àṡiete che l'è ora,es,"preparati che è ora, organizzati ch'è tempo",asiete
+373,lemma,asìl,sm,"asse, assile (del carro) - anche: sil",asil
+374,lemma,aṡilòt,sm,bambino che va alla scuola materna (asilo),asilot
+375,lemma,asòlver,vb,"assolvere, adempiere",asolver
+376,lemma,asolvèst,agg,"assolto, eseguito",asolvest
+377,lemma,asón,sm,asse centrale e traverse principali del carro agricolo,ason
+378,lemma,asòt,sm,"asse, assicella, tavoletta di legno",asot
+379,lemma,asp,sm,"aspo, naspo - anche: aspi, guindol",asp
+380,lemma,aspèt,sm,"aspetto, forma, cera, faccia",aspet
+381,lemma,aspetàr,vb,"aspettare, attendere, essere in attesa",aspetar
+382,lemma,asquasi,avv,"quasi, circa, pressappoco",asquasi
+383,lemma,asvèlt,agg,"svelto, sveglio, lesto, agile, sollecito, accorto - anche: asvèlto, svèlt, sguèlt, asguèlt",asvelt
+384,lemma,asveltirse,vb,"sveltirsi, stringere i tempi, svegliarsi",asveltirse
+385,lemma,atacapàni,sm,"attaccapanni, appendiabiti, appendino - anche: tacapàni",atacapani
+386,lemma,atènt,agg,"attento, solerte",atent
+387,lemma,atenzión,sf,"attenzione, interesse, cura",atenzion
+388,lemma,àtimo,sm,"attimo, istante, amen",atimo
+389,lemma,ato,sm,"1. atto, gesto, azione; 2. atto, scena; 3. capace, rispondente",ato
+390,lemma,atrìte,sf,malattia dell’artrite,atrite
+391,lemma,aughén,escl,"occhio, fai attenzione, valuta bene - anche: òcio",aughen
+392,lemma,àuno,sm,ontano,auno
+393,lemma,aùt,sm,aiuto,aut
+394,lemma,autàr,vb,"aiutare, soccorrere",autar
+395,locuzione,autarghe,es,"aiutarlo, aiutarla, aiutarle (dare aiuto)",autarghe
+396,lemma,autèl,sm,"automobilina, piccola auto, giocattolo.",autel
+397,lemma,autùn,sm,autunno,autun
+398,lemma,avanti,avv,"avanti, davanti, innanzi; anche: envànti",avanti
+399,locuzione,avanti che,loc,"prima di, prima che",avanti che
+400,lemma,avantór,sm,"avventore, cliente, pretendente, corteggiatore",avantor
+401,lemma,avànz,sm,"avanzo, scarto, sfrido, residuo - anche: vanzaròt",avanz
+402,lemma,avaròle,sfpl,vaiolo,avarole
+403,lemma,avarón,sm,avaraccio,avaron
+404,lemma,avegnìr,sm,"avvenire, futuro, domani",avegnir
+405,lemma,avér,vb,avere - anche: gavér,aver
+406,locuzione,avér el magón,loc,"avere il magone, avere il nodo alla gola, avere tristezza, abbattimento",aver el magon
+407,locuzione,avér per mal,loc,"averne a male, permalosirsi",aver per mal
+408,locuzione,avérghe tèmp,loc,avere del tempo,averghe temp
+409,locuzione,avérghen,es,"averne, possederne",averghen
+410,locuzione,avérghen,es,averne! riuscire a ottenerne!,averghen
+411,locuzione,averghén (da –),loc,"d'averne, da possederne - anche: érghene",averghen (da –)
+412,locuzione,averghén (vàrda d' – asà),loc,bada di averne abbastanza - anche: érghene,averghen (varda d' – asa)
+413,locuzione,avérghen de masa,es,"averne troppi, averne in sovrappiù",averghen de masa
+414,lemma,avéri,smpl,"beni, sostanze, ricchezze",averi
+415,lemma,avèrt,agg,"aperto, ampio, scoperto; disponibile, socievole",avert
+416,locuzione,avèrt /a (a l' –),loc,"allo scoperto, esposto, alla luce del sole",avert /a (a l' –)
+417,locuzione,avèrta (a boca –),es,"a bocca aperta, stupire, sbalordire",averta (a boca –)
+418,lemma,avertìr,vb,"avvertire, ammonire, avvisare, far presente; fiutare, presentire",avertir
+419,lemma,avertór,sm,sparato; la parte anteriore della camicia maschile da sera,avertor
+420,lemma,avèrżer,vb,"aprire, dischiudere, slacciare, sbocciare, stappare, allargare, squarciare, dare inizio",averzer
+421,lemma,avèrżer fòra,loc,"spalancare, schiudere, allargare, spaccare, spacchettare",averzer fora
+422,lemma,avèrżerse,vb,"1. aprirsi, slacciarsi, stapparsi; 2. confidarsi, rasserenarsi",averzerse
+423,lemma,avéz,sm,abete bianco,avez
+424,lemma,avilì,agg,"avvilito, depresso, umiliato - anche: avelì",avili
+425,lemma,avizinàr,vb,"avvicinare, accostare, ravvicinare - anche: svizinàr, arvézinar",avizinar
+426,lemma,avizinàrse,vb,"avvicinarsi, accostarsi, ravvicinarsi - anche: svizinàrse, arvézinarse",avizinarse
+427,lemma,avocatèl,sm,avvocatuncolo,avocatel
+428,lemma,àvola,sf,alborella (pesce),avola
+429,lemma,aza,sf,matassa,aza
+430,lemma,aze,sfpl,volg. testicoli,aze
+431,locuzione,aze (far na żó le –),loc,"infastidire, molestare, seccare, importunare",aze (far na zo le –)
+432,locuzione,aze (fòr da le –),loc,"gira alla larga, vattene, non rompere",aze (for da le –)
+433,locuzione,aze (nó róter le –),loc,"non rompere, non molestarmi, non ropermi le palle",aze (no roter le –)
+434,locuzione,aze (nó secàr le –),loc,"non scocciare, non infastidire, non esasperare",aze (no secar le –)
+435,lemma,azènt,sm,accento,azent
+436,lemma,azèt,agg,"ben accetto, ben accolto",azet
+437,locuzione,azèt (far bòn –),loc,dare buona accoglienza,azet (far bon –)
+438,lemma,azetàr,vb,"accettare, acconsentire, gradire - anche: acetàr",azetar
+439,lemma,azidènt,sm,"accidente, disgrazia, complicazione",azident
+440,lemma,àzido,agg,"acido, brusco, scortese, bisbetico",azido
+441,lemma,azión,sf,"azione, gesto, mossa, atto, quota",azion
+442,lemma,ażuro,agg,azzurro,azuro

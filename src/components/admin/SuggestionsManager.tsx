@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
+import type { GrammarCategory } from '@/types/dictionary';
 import { 
   Check, 
   X, 
@@ -54,7 +55,7 @@ export function SuggestionsManager() {
       .order('created_at', { ascending: false });
     
     if (error) {
-      console.error('Error fetching suggestions:', error);
+      console.error('Errore nel caricamento dei suggerimenti:', error);
       toast({
         variant: 'destructive',
         title: 'Errore',
@@ -74,8 +75,6 @@ export function SuggestionsManager() {
   const handleApprove = async (suggestion: Suggestion) => {
     setProcessingId(suggestion.id);
     
-    type GrammarCategory = 'sostantivo' | 'verbo' | 'aggettivo' | 'avverbio' | 'preposizione' | 'congiunzione' | 'esclamazione' | 'pronome' | 'locuzione';
-    
     const { error: insertError } = await supabase
       .from('dictionary_entries')
       .insert([{
@@ -83,11 +82,12 @@ export function SuggestionsManager() {
         italian_word: suggestion.italian_word,
         category: (suggestion.category as GrammarCategory) || 'sostantivo',
         definition: suggestion.definition,
-        examples: suggestion.examples
+        examples: suggestion.examples,
+        pronunciation: suggestion.pronunciation,
       }]);
     
     if (insertError) {
-      console.error('Error adding to dictionary:', insertError);
+      console.error('Errore aggiunta voce al dizionario:', insertError);
       toast({
         variant: 'destructive',
         title: 'Errore',
@@ -107,7 +107,7 @@ export function SuggestionsManager() {
       .eq('id', suggestion.id);
     
     if (updateError) {
-      console.error('Error updating suggestion:', updateError);
+      console.error('Errore aggiornamento stato suggerimento:', updateError);
     }
     
     toast({
@@ -132,7 +132,7 @@ export function SuggestionsManager() {
       .eq('id', suggestion.id);
     
     if (error) {
-      console.error('Error rejecting suggestion:', error);
+      console.error('Errore nel rifiuto del suggerimento:', error);
       toast({
         variant: 'destructive',
         title: 'Errore',
