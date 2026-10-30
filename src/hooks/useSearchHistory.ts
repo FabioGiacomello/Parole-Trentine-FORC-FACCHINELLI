@@ -14,7 +14,7 @@ export function useSearchHistory() {
     if (stored) {
       try {
         const parsed = JSON.parse(stored);
-        setHistory(parsed.map((item: any) => ({
+        setHistory(parsed.map((item: { id: string; query: string; timestamp: string | Date; resultCount: number }) => ({
           ...item,
           timestamp: new Date(item.timestamp)
         })));

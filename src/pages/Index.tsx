@@ -34,7 +34,7 @@ export default function Index() {
       { label: 'Avverbi', value: counts.avverbio ?? 0 },
       { label: 'Locuzioni', value: counts.locuzione ?? 0 },
     ];
-  }, [entries, totalCount]);
+  }, [entries]);
 
   const wordOfTheDay = useMemo(() => {
     if (!entries.length) return null;
