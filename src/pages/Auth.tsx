@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -151,6 +151,9 @@ export default function Auth() {
                 {loading ? 'Caricamento...' : 'Accedi'}
               </Button>
             </form>
+            <p className="mt-4 text-center text-xs text-muted-foreground">
+              <Link to="/privacy" className="underline">Informativa privacy</Link>
+            </p>
           </div>
         </div>
       </section>

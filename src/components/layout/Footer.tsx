@@ -91,6 +91,9 @@ export function Footer() {
 
         <div className="mt-12 pt-6 border-t border-border text-center text-sm text-muted-foreground">
           <p>© {new Date().getFullYear()} Dizionario Trentino. Tutti i diritti riservati.</p>
+          <p className="mt-2">
+            <Link to="/privacy" className="underline hover:text-foreground">Privacy e cookie</Link>
+          </p>
         </div>
       </div>
     </footer>

@@ -10,6 +10,7 @@ import Cronologia from "./pages/Cronologia";
 import Auth from "./pages/Auth";
 import Admin from "./pages/Admin";
 import Suggerisci from "./pages/Suggerisci";
+import Privacy from "./pages/Privacy";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,6 +29,7 @@ const App = () => (
             <Route path="/suggerisci" element={<Suggerisci />} />
             <Route path="/auth" element={<Auth />} />
             <Route path="/admin" element={<Admin />} />
+            <Route path="/privacy" element={<Privacy />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>

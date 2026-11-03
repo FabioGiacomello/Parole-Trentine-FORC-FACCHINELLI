@@ -7,6 +7,7 @@ import { Label } from '@/components/ui/label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { useToast } from '@/hooks/use-toast';
 import { supabase } from '@/integrations/supabase/client';
+import { Link } from 'react-router-dom';
 import type { GrammarCategory } from '@/types/dictionary';
 import { 
   Lightbulb, 
@@ -35,6 +36,7 @@ const categories = [
 export default function Suggerisci() {
   const [loading, setLoading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [privacyAccepted, setPrivacyAccepted] = useState(false);
   const [formData, setFormData] = useState({
     dialect_word: '',
     italian_word: '',
@@ -98,6 +100,7 @@ export default function Suggerisci() {
 
   const handleReset = () => {
     setSubmitted(false);
+    setPrivacyAccepted(false);
     setFormData({
       dialect_word: '',
       italian_word: '',
@@ -262,6 +265,21 @@ export default function Suggerisci() {
                       />
                     </div>
                   </div>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <input
+                    id="privacy"
+                    type="checkbox"
+                    required
+                    checked={privacyAccepted}
+                    onChange={(e) => setPrivacyAccepted(e.target.checked)}
+                    className="mt-1 h-4 w-4"
+                  />
+                  <Label htmlFor="privacy" className="text-sm font-normal text-muted-foreground leading-relaxed">
+                    Ho letto l'<Link to="/privacy" className="underline" target="_blank">informativa privacy</Link> e
+                    acconsento al trattamento dei dati di contatto eventualmente inseriti. <span className="text-destructive">*</span>
+                  </Label>
                 </div>
 
                 {/* Submit */}

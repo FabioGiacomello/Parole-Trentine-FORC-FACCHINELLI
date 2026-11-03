@@ -13,6 +13,8 @@
     "test:import": "node --test scripts/import-dictionary.test.mjs"
   },
   "dependencies": {
+    "@fontsource/playfair-display": "^5.3.0",
+    "@fontsource/source-sans-3": "^5.3.1",
     "@hookform/resolvers": "^5.9.2",
     "@radix-ui/react-dropdown-menu": "^2.1.15",
     "@radix-ui/react-label": "^2.1.7",
