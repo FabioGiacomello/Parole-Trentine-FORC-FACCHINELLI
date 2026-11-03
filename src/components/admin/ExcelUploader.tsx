@@ -132,8 +132,11 @@ export function ExcelUploader() {
     setErrorDetails([]);
 
     try {
-      const data = await file.arrayBuffer();
-      const workbook = XLSX.read(data);
+      // I CSV vanno letti come testo UTF-8, altrimenti gli accenti vengono corrotti
+      const isCsv = file.name.toLowerCase().endsWith('.csv');
+      const workbook = isCsv
+        ? XLSX.read(await file.text(), { type: 'string' })
+        : XLSX.read(await file.arrayBuffer());
       const sheetName = workbook.SheetNames[0];
       const worksheet = workbook.Sheets[sheetName];
       const jsonData = XLSX.utils.sheet_to_json<ExcelRow | SourceRow>(worksheet);

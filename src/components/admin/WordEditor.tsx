@@ -6,7 +6,8 @@ import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { useToast } from '@/hooks/use-toast';
-import { ArrowLeft, Save, Loader2 } from 'lucide-react';
+import { ArrowLeft, Save, Loader2, Upload, Trash2 } from 'lucide-react';
+import { uploadEntryAudio, deleteEntryAudio, validateAudioFile } from '@/lib/audioUpload';
 import type { Gender, GrammarCategory, Number } from '@/types/dictionary';
 
 interface DictionaryEntry {
@@ -19,6 +20,7 @@ interface DictionaryEntry {
   source_category: string | null;
   definition: string | null;
   examples: string[] | null;
+  audio_url: string | null;
 }
 
 interface WordEditorProps {
@@ -51,8 +53,32 @@ export function WordEditor({ entry, onSave, onCancel }: WordEditorProps) {
   const [number, setNumber] = useState<Number | ''>((entry?.number as Number) || '');
   const [definition, setDefinition] = useState(entry?.definition || '');
   const [examples, setExamples] = useState(entry?.examples?.join('\n') || '');
+  const [audioUrl, setAudioUrl] = useState<string | null>(entry?.audio_url || null);
+  const [audioFile, setAudioFile] = useState<File | null>(null);
+  const [audioPreview, setAudioPreview] = useState<string | null>(null);
   const [saving, setSaving] = useState(false);
   const { toast } = useToast();
+
+  const handleAudioChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    e.target.value = '';
+    if (!file) return;
+    const problem = validateAudioFile(file);
+    if (problem) {
+      toast({ variant: 'destructive', title: 'Audio non valido', description: problem });
+      return;
+    }
+    if (audioPreview) URL.revokeObjectURL(audioPreview);
+    setAudioFile(file);
+    setAudioPreview(URL.createObjectURL(file));
+  };
+
+  const handleAudioRemove = () => {
+    if (audioPreview) URL.revokeObjectURL(audioPreview);
+    setAudioFile(null);
+    setAudioPreview(null);
+    setAudioUrl(null);
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -68,7 +94,20 @@ export function WordEditor({ entry, onSave, onCancel }: WordEditorProps) {
     
     setSaving(true);
     
+    let nextAudioUrl = audioUrl;
+    if (audioFile) {
+      try {
+        nextAudioUrl = await uploadEntryAudio(audioFile, dialectWord);
+      } catch (uploadError) {
+        console.error('Errore nel caricamento audio:', uploadError);
+        setSaving(false);
+        toast({ variant: 'destructive', title: 'Errore', description: 'Impossibile caricare il file audio.' });
+        return;
+      }
+    }
+
     const data = {
+      audio_url: nextAudioUrl,
       dialect_word: dialectWord.trim(),
       italian_word: italianWord.trim(),
       category,
@@ -95,7 +134,14 @@ export function WordEditor({ entry, onSave, onCancel }: WordEditorProps) {
     }
     
     setSaving(false);
-    
+
+    // Rimuove dallo storage il vecchio audio se sostituito o eliminato
+    const previousUrl = entry?.audio_url;
+    if (!error && previousUrl && previousUrl !== nextAudioUrl) {
+      deleteEntryAudio(previousUrl).catch(cleanupError =>
+        console.error('Pulizia vecchio audio fallita:', cleanupError));
+    }
+
     if (error) {
       console.error('Errore nel salvataggio della voce:', error);
       toast({
@@ -223,6 +269,29 @@ export function WordEditor({ entry, onSave, onCancel }: WordEditorProps) {
             placeholder="L'è na bèla cagnina&#10;La cagnina la córe"
             rows={4}
           />
+        </div>
+
+        <div className="space-y-2">
+          <Label htmlFor="audio">Audio pronuncia (wav, mp3, ogg, m4a — max 10 MB)</Label>
+          {(audioPreview || audioUrl) && (
+            <audio controls src={audioPreview ?? audioUrl ?? undefined} className="w-full" />
+          )}
+          <div className="flex flex-wrap gap-2">
+            <Button type="button" variant="outline" className="gap-2" asChild>
+              <label htmlFor="audio" className="cursor-pointer">
+                <Upload className="h-4 w-4" />
+                {audioPreview || audioUrl ? 'Sostituisci audio' : 'Carica audio'}
+              </label>
+            </Button>
+            {(audioPreview || audioUrl) && (
+              <Button type="button" variant="ghost" className="gap-2 text-destructive" onClick={handleAudioRemove}>
+                <Trash2 className="h-4 w-4" />
+                Rimuovi
+              </Button>
+            )}
+          </div>
+          <input id="audio" type="file" accept="audio/*,.wav,.mp3,.ogg,.m4a" className="sr-only" onChange={handleAudioChange} />
+          {audioFile && <p className="text-sm text-muted-foreground">Verrà salvato con la parola: {audioFile.name}</p>}
         </div>
 
         <div className="flex gap-4 justify-end">
