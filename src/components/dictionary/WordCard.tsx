@@ -1,6 +1,7 @@
 import { DictionaryEntry, GrammarCategory } from '@/types/dictionary';
 import { Volume2, ArrowRight } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
+import { useAudioPlayer } from '@/hooks/useAudioPlayer';
 
 interface WordCardProps {
   entry: DictionaryEntry;
@@ -40,6 +41,7 @@ const categoryLabels: Record<GrammarCategory, string> = {
 };
 
 export function WordCard({ entry, onClick }: WordCardProps) {
+  const { available: hasAudio } = useAudioPlayer(entry.dialectWord, entry.audioUrl);
   return (
     <button
       onClick={onClick}
@@ -51,7 +53,7 @@ export function WordCard({ entry, onClick }: WordCardProps) {
             <h3 className="font-display text-xl font-semibold text-foreground group-hover:text-primary transition-colors truncate">
               {entry.dialectWord}
             </h3>
-            {entry.audioUrl && (
+            {hasAudio && (
               <Volume2 className="h-4 w-4 text-muted-foreground flex-shrink-0" />
             )}
           </div>

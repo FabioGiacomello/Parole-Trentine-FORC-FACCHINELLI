@@ -312,6 +312,20 @@ export function mergeEntries(records) {
   return [...merged.values()].map(({ _fieldPriorities, _italianVariants, ...entry }) => entry);
 }
 
+const CP437_HIGH = 'ÇüéâäàåçêëèïîìÄÅÉæÆôöòûùÿÖÜ¢£¥₧ƒáíóúñÑªº¿⌐¬½¼¡«»░▒▓│┤╡╢╖╕╣║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠═╬╧╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀';
+
+// I nomi dei WAV esportati hanno gli UTF-8 combinanti (es. CC 80) letti come CP437 ("╠Ç"): li ripristina.
+export function repairMojibake(name) {
+  if (!name.includes('╠')) return name.normalize('NFC');
+  const bytes = [];
+  for (const character of name) {
+    const high = CP437_HIGH.indexOf(character);
+    if (high >= 0) bytes.push(0x80 + high);
+    else bytes.push(...Buffer.from(character, 'utf8'));
+  }
+  return Buffer.from(bytes).toString('utf8').normalize('NFC');
+}
+
 function accentless(value) {
   return value.normalize('NFD').replace(/\p{Diacritic}/gu, '').normalize('NFC');
 }
@@ -335,7 +349,7 @@ export function matchAudioFiles(entries, audioFiles) {
   }
 
   return audioFiles.map((file) => {
-    const stem = basename(file, extname(file)).normalize('NFC');
+    const stem = repairMojibake(basename(file, extname(file)));
     const exact = exactTargets.get(normalizeAudioKey(stem));
     const loose = looseTargets.get(normalizeAudioKey(accentless(stem)));
     const targets = exact ?? (loose?.size === 1 ? loose : undefined);
@@ -416,8 +430,8 @@ export function loadImportDataset(root = process.cwd()) {
   };
 }
 
-function objectPathForAudio(filePath) {
-  const stem = basename(filePath, extname(filePath)).normalize('NFC');
+export function objectPathForAudio(filePath) {
+  const stem = repairMojibake(basename(filePath, extname(filePath)));
   const slug = stem.normalize('NFD').replace(/\p{Diacritic}/gu, '')
     .toLocaleLowerCase('it').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 80) || 'audio';
   const hash = createHash('sha256').update(stem).digest('hex').slice(0, 8);

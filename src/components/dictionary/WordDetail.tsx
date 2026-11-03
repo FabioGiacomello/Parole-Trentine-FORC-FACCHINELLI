@@ -1,5 +1,6 @@
 import { DictionaryEntry, GrammarCategory } from '@/types/dictionary';
-import { Volume2, X } from 'lucide-react';
+import { Volume2, VolumeX, Loader2, X } from 'lucide-react';
+import { useAudioPlayer } from '@/hooks/useAudioPlayer';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { WordCard } from './WordCard';
@@ -28,12 +29,7 @@ const categoryLabels: Record<GrammarCategory, string> = {
 };
 
 export function WordDetail({ entry, similarWords, onClose, onSelectSimilar }: WordDetailProps) {
-  const playAudio = () => {
-    if (entry.audioUrl) {
-      const audio = new Audio(entry.audioUrl);
-      audio.play();
-    }
-  };
+  const { play: playAudio, status: audioStatus, available: hasAudio } = useAudioPlayer(entry.dialectWord, entry.audioUrl);
 
   return (
     <div className="fixed inset-0 z-50 bg-background/80 backdrop-blur-sm animate-blur-in">
@@ -45,14 +41,22 @@ export function WordDetail({ entry, similarWords, onClose, onSelectSimilar }: Wo
               <h2 className="font-display text-3xl font-bold text-foreground">
                 {entry.dialectWord}
               </h2>
-              {entry.audioUrl && (
+              {hasAudio && (
                 <Button
                   variant="outline"
                   size="icon"
                   onClick={playAudio}
                   className="rounded-full"
+                  aria-label={audioStatus === 'error' ? 'Audio non disponibile' : 'Ascolta la pronuncia'}
+                  title={audioStatus === 'error' ? 'Audio non disponibile' : 'Ascolta la pronuncia'}
                 >
-                  <Volume2 className="h-5 w-5" />
+                  {audioStatus === 'loading' ? (
+                    <Loader2 className="h-5 w-5 animate-spin" />
+                  ) : audioStatus === 'error' ? (
+                    <VolumeX className="h-5 w-5 text-destructive" />
+                  ) : (
+                    <Volume2 className={`h-5 w-5 ${audioStatus === 'playing' ? 'text-primary' : ''}`} />
+                  )}
                 </Button>
               )}
             </div>
