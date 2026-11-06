@@ -5,7 +5,7 @@ const NotFound = () => {
   const location = useLocation();
 
   useEffect(() => {
-    console.error("Errore 404: pagina non trovata →", location.pathname);
+    console.warn("Pagina non trovata:", location.pathname);
   }, [location.pathname]);
 
   return (

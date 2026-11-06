@@ -8,14 +8,14 @@ export default {
   theme: {
     container: {
       center: true,
-      padding: "2rem",
+      padding: "1rem",
       screens: {
         "2xl": "1400px",
       },
     },
     extend: {
       fontFamily: {
-        display: ["var(--font-display)", "Georgia", "serif"],
+        display: ["var(--font-display)", "Arial", "sans-serif"],
         body: ["var(--font-body)", "system-ui", "sans-serif"],
       },
       colors: {

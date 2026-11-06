@@ -6,7 +6,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { useAuth } from '@/contexts/AuthContext';
 import { useToast } from '@/hooks/use-toast';
-import { Lock, Mail, Shield, Eye, EyeOff } from 'lucide-react';
+import { Lock, Mail, Eye, EyeOff } from 'lucide-react';
 import { z } from 'zod';
 
 const authSchema = z.object({
@@ -88,9 +88,7 @@ export default function Auth() {
       <section className="container py-16">
         <div className="max-w-md mx-auto">
           <div className="text-center mb-8 animate-fade-in">
-            <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-primary/10 text-primary mx-auto mb-4">
-              <Shield className="h-8 w-8" />
-            </div>
+            <img src="/logos/e-trentin.png" alt="e-Trentin" className="h-14 w-auto max-w-[220px] object-contain mx-auto mb-4" />
             <h1 className="font-display text-3xl font-bold mb-2">
               Area Amministrativa
             </h1>

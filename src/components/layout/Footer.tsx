@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Book, Instagram, Mail, MonitorSmartphone, Award } from 'lucide-react';
+import { Instagram, Mail, MonitorSmartphone, Award } from 'lucide-react';
 
 const partnerLogos = [
   { src: '/Partener/Logo_3LINLAB.jpeg', alt: '3LINLAB' },
@@ -15,17 +15,7 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary text-primary-foreground">
-                <Book className="h-5 w-5" />
-              </div>
-              <div>
-                <h3 className="font-display text-lg font-semibold">
-                  e-Trentin
-                </h3>
-                <p className="text-xs text-muted-foreground">
-                  Dizionario del dialetto di Trento online
-                </p>
-              </div>
+              <img src="/logos/e-trentin.png" alt="e-Trentin" className="h-10 w-auto max-w-full object-contain" />
             </div>
             <p className="text-sm text-muted-foreground max-w-xs">
               Un progetto dedicato alla preservazione e diffusione del dialetto trentino.
