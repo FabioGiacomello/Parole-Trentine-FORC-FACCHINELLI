@@ -1,6 +1,5 @@
 import { useState, useCallback } from 'react';
 import { useDropzone } from 'react-dropzone';
-import * as XLSX from 'xlsx';
 import { supabase } from '@/integrations/supabase/client';
 import { Button } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';
@@ -132,6 +131,7 @@ export function ExcelUploader() {
     setErrorDetails([]);
 
     try {
+      const XLSX = await import('xlsx');
       // I CSV vanno letti come testo UTF-8, altrimenti gli accenti vengono corrotti
       const isCsv = file.name.toLowerCase().endsWith('.csv');
       const workbook = isCsv
@@ -246,18 +246,24 @@ export function ExcelUploader() {
     disabled: uploading,
   });
 
-  const downloadTemplate = () => {
-    // Template nel formato sorgente AA/BB usato dal Lessico Trentino
-    const template = [
-      { Num: 1, Tipo: 'lemma', Voce: 'cagnina', Cat: 'sf', Italiano: 'cagnolina', Et_Audio: 'cagnina' },
-      { Num: 2, Tipo: 'lemma', Voce: 'córer', Cat: 'vb', Italiano: 'correre', Et_Audio: 'corer' },
-      { Num: 3, Tipo: 'locuzione', Voce: 'bon dì', Cat: 'escl', Italiano: 'buongiorno', Et_Audio: 'bon di' },
-    ];
+  const downloadTemplate = async () => {
+    try {
+      const XLSX = await import('xlsx');
+      // Template nel formato sorgente AA/BB usato dal Lessico Trentino
+      const template = [
+        { Num: 1, Tipo: 'lemma', Voce: 'cagnina', Cat: 'sf', Italiano: 'cagnolina', Et_Audio: 'cagnina' },
+        { Num: 2, Tipo: 'lemma', Voce: 'córer', Cat: 'vb', Italiano: 'correre', Et_Audio: 'corer' },
+        { Num: 3, Tipo: 'locuzione', Voce: 'bon dì', Cat: 'escl', Italiano: 'buongiorno', Et_Audio: 'bon di' },
+      ];
 
-    const ws = XLSX.utils.json_to_sheet(template);
-    const wb = XLSX.utils.book_new();
-    XLSX.utils.book_append_sheet(wb, ws, 'Dizionario');
-    XLSX.writeFile(wb, 'template_lessico_trentino.xlsx');
+      const ws = XLSX.utils.json_to_sheet(template);
+      const wb = XLSX.utils.book_new();
+      XLSX.utils.book_append_sheet(wb, ws, 'Dizionario');
+      XLSX.writeFile(wb, 'template_lessico_trentino.xlsx');
+    } catch (error) {
+      console.error('Errore nella creazione del template:', error);
+      toast({ variant: 'destructive', title: 'Errore', description: 'Impossibile creare il template.' });
+    }
   };
 
   return (
